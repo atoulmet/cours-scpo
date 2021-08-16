@@ -91,8 +91,8 @@ Pour éviter d'avoir des logiciels spécifiques au développement à installer, 
 
 Vous devriez avoir reçu une invitation par mail pour rejoindre la Team scpo-fall-2021. Je vous invite à créer un compte comme ici en indiquant la première lettre de votre prénom et nom de famille en nom utilisateur, et <u>avec votre adresse mail Sciences Po.</u> 👇
 
-[Créer un compte sur Replit](./images/signup-page.png). 
+[Créer un compte sur Replit](./images/signup-page.png)
 
 Vous remplissez les différents champs. Et 🎉 vous avez accès à votre compte ! Vous pouvez confirmer votre adresse mail dès maintenant. Vous arrivez sur la page d'accueil. Normalement, si vous allez dans l'onglet Teams, vous devriez trouver la Team Sciences Po du cours :
 
-[Ouvrir l'onglet Teams du cours](./images/teams.gif). 
+[Ouvrir l'onglet Teams du cours](./images/teams.gif)
