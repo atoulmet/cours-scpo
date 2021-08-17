@@ -96,3 +96,31 @@ Vous devriez avoir reçu une invitation par mail pour rejoindre la Team scpo-fal
 Vous remplissez les différents champs. Et 🎉 vous avez accès à votre compte ! Vous pouvez confirmer votre adresse mail dès maintenant. Vous arrivez sur la page d'accueil. Normalement, si vous allez dans l'onglet Teams, vous devriez trouver la Team Sciences Po du cours :
 
 ![Ouvrir l'onglet Teams du cours](./images/teams.gif)
+
+### Découvrez Replit
+
+Essayons dès maintenant de créer un fichier de code, ou comme la plateforme Replit les appelle, un "repl". Vous pouvez au choix cliquer sur le bouton en haut à droite avec le "+" ou bien dans la colonne de gauche "+ New repl". Sélectionnez alors "Node.js" (il s'agit de JavaScript), et nommez votre repl "mon-premier-repl". Vous arrivez alors sur l'environnement de travail. 
+
+![Notre environnement de travail dans Replit](./images/environnement-travail.png)
+
+- La partie de gauche vous permet de sélectionner un fichier.
+- La partie centrale correspond à l'éditeur de texte.
+- La partie de droite est la console. Vous pourrez y exécuter des commandes, vous permettant de faire tourner votre code, et voir le résultat obtenu.
+
+Lançons-nous dans votre premier exercice :
+1- Par défaut, un fichier "index.js" a été créé.
+2- Dans le l'éditeur de texte, écrivez console.log(42).
+3- Cliquez sur le bouton `Run`. Vous devriez obtenir le résultat comme ci-dessous 👇
+
+![Votre premier console.log()](./images/consolelog.gif)
+
+Poussons l'exercice un peu plus loin : on va maintenant créer notre propre fichier, et l'exécuter à partir du Shell. Pour cela, on clique sur "Add file" en haut à droite de l'explorateur de fichiers, on le nomme "monTest.js" (et on n'oublie pas l'extension). Puis dans la colonne de droite, on sélectionne Shell, et on exécute la commande `node monTest.js`. 
+
+![Votre première utilisation du Shell](./images/shell-node.gif)
+
+Et voilà ! Vous avez exécuté vos premières lignes de JavaScript ! 🎉
+
+## Pour la prochaine séance
+
+- Relire le cours. Vous y accédez depuis Teams > scpo-fall-2021 > Teams Projects > Cours 
+- 
