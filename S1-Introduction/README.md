@@ -1,5 +1,3 @@
-Mettre bannière avec charte sur toutes les bannières
-
 # Plongez dans le monde du développement
 
 Et c'est parti pour la première séance ! 🎉
@@ -78,15 +76,15 @@ Maintenant que vous avez quelques connaissances théoriques, profitons-en pour n
 ### Le matériel nécessaire
 
 * Un ordinateur
-Il est indispensable de ramener un ordinateur chaque semaine en cours. Pour coder, vous aurez besoin d'utiliser des caractères tels que `<>/*+-=()[]{}`.
+Il est indispensable d'amener un ordinateur chaque semaine en cours. Pour coder, vous aurez besoin d'utiliser des caractères tels que `<>/*+-=()[]{}`.
 
 > #ProTip: Sur MacOS, vous pouvez écrire des accolades {} en faisant shift+( ou shift+), et des crochets [] avec option+shift+( ou option+shift+).
 Sur PC, vous devez utiliser la touche AltGr avec la touche correspondante.
 
-* Un browser moderne
+* Un navigateur moderne
 Nous allons faire du développement web. Pour cela, il est essentiel d'utiliser un navigateur qui est répandu. Pour ce cours, je vous recommande FireFox ou Google Chrome.
 
-### Inscrivez vous sur Repl.it
+### Inscrivez vous sur Replit
 Pour éviter d'avoir des logiciels spécifiques au développement à installer, nous allons utiliser un Environnement de Développement Intégré. Nous ferons tout sur [la plateforme Replit](https://replit.com/~).
 
 Vous devriez avoir reçu une invitation par mail pour rejoindre la Team scpo-fall-2021. Je vous invite à créer un compte comme ici en indiquant la première lettre de votre prénom et nom de famille en nom utilisateur, et <u>avec votre adresse mail Sciences Po.</u> 👇
@@ -114,13 +112,11 @@ Lançons-nous dans votre premier exercice :
 
 ![Votre premier console.log()](./images/consolelog.gif)
 
-Poussons l'exercice un peu plus loin : on va maintenant créer notre propre fichier, et l'exécuter à partir du Shell. Pour cela, on clique sur "Add file" en haut à droite de l'explorateur de fichiers, on le nomme "monTest.js" (et on n'oublie pas l'extension). Puis dans la colonne de droite, on sélectionne Shell, et on exécute la commande `node monTest.js`. 
-
-![Votre première utilisation du Shell](./images/shell-node.gif)
-
 Et voilà ! Vous avez exécuté vos premières lignes de JavaScript ! 🎉
 
 ## Pour la prochaine séance
 
-- Relire le cours. Vous y accédez depuis Teams > scpo-fall-2021 > Teams Projects > Cours 
-- 
+- Relire le cours. Vous y accédez depuis `Teams` > `scpo-fall-2021` > `Teams repls` > `View team repls` > `cours-scpo`. Je vous conseille de le mettre en favori pour pouvoir le retrouver facilement.
+- Dans `Teams` > `scpo-fall-2021` > `Teams Project`, vous trouverez des exercices pour chaque séance du cours. Vous devrez réaliser le quiz de la séance 1. Voici [le lien juste ici](https://replit.com/@scpo-fall-2021/1-introductionquiz).
+
+Je vous mets juste ici un screencast pour vous apprendre à réaliser votre exercice, et à le corriger 👇 
