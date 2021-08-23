@@ -116,7 +116,7 @@ console.log(compteur)
 Dans les anciennes versions de JavaScript, `let` et `const` n'existaient pas. À la place, on avait `var` dont le comportement était un peu différent. Ces différences rentrent un peu plus dans la technique, dont vous n'aurez pas besoin pour le moment. Gardez juste à l'esprit qu'il vaut mieux utiliser `var`. Donc si vous le voyez dans un morceau de code que vous trouvez en ligne, essayez de le remplacer par `let` ou `const`.
 
 
-## Manipulez les valeurs primitives : number et string
+## Manipulez les number et string
 
 ### Les numbers
 
@@ -186,7 +186,21 @@ console.log(myString)
 
 Ici on obtient bien la string `Je suis étudiante à Sciences Po`. Yay ! 🎉
 
-## Pour la prochaine séance
+## Récapitulatif des types
+
+Pour l'instant vous avez vu deux types : les strings et les numbers. Mais il en existe d'autres. Je vous mets la syntaxe juste ici des types les plus importants en JS :
+```
+const number = 42
+const string = "Voilà ma chaîne de caractères"
+const booléen = true
+const objet = {
+    "maClé1": "ma Valeur1",
+    "maClé2": "ma Valeur2"
+}
+const tableau = ["valeur1", "valeur2", "valeur3"]
+```
+
+## Pour la semaine prochaine
 
 - [Exercice 1](https://replit.com/@scpo-fall-2021/S2-variablesexercice-1#index.js)
 - [Exercice 2](https://replit.com/@scpo-fall-2021/S2-variablesexercice-2#index.js)
