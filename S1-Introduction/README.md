@@ -2,7 +2,7 @@
 
 Et c'est parti pour la première séance ! 🎉
 
-Nous les verrons ensembles en classe, mais je vous récapitule ici ce que nous allons voir durant ce cours.
+Nous le verrons ensembles en classe, mais je vous récapitule ici ce que nous allons voir durant ce cours.
 
 ## Découvrez les objectifs du cours
 
@@ -16,6 +16,7 @@ Chaque semaine, vous aurez des exercices à réaliser pour la séance suivante.
 À la fin du semestre, vous aurez un rendu à réaliser.
 Votre note finale dépendra de votre participation, de votre régularité dans les exercices hebdomadaires, ainsi que de votre rendu final.
 
+
 ### Méthodologie
 
 La méthodologie de ce cours sera différente de ce dont vous avez l'habitude à Sciences Po.
@@ -26,8 +27,8 @@ La compétence principale des développeurs et développeuses est de savoir form
 
 ![À 42, ni cours, ni professeur](./images/42-logo.png)
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Je vous ai préparé une liste d'astuces pour faire une recherche Google efficace.` Je vous ai préparé une liste d'astuces pour faire une recherche Google efficace.
-Une fois cette compétence acquise elle vous servira dans tous les domaines.
+Je vous ai préparé [une liste d'astuces](./make-google-search.md) pour faire une recherche Google efficace.
+Une fois cette compétence acquise elle vous servira dans tous les domaines, même des domaines insoupçonnés (bricolage, dépannage, etc.).
 
 
 ## Faites une première approche du code
@@ -40,7 +41,7 @@ Le code nous entoure dans tout ce que nous faisons : vos téléphones portables,
 
 Mais au fait, c'est quoi le code ?
 
-Le code consiste en des instructions : il permet de dire à un ordinateur (la partie hardware) quoi faire. 
+Le code consiste en des instructions : il permet de dire à un ordinateur (la partie hardware), quoi faire. 
 On prend un exemple simple avec nos smartphones. Ils sont verrouillés par un mot de passe. 
 
 Lorsque j'essaie d'ouvrir mon téléphone, il requiert un mot de passe. Je tape un mot de passe :
@@ -60,8 +61,8 @@ Qu'est-ce qui nous permet de donner ces instructions ? Les langages informatique
 Certains langages sont plus adaptés pour des utilisations particulières. 
 
 On peut distinguer :
-- les langages haut niveau, où les instructions sont rédigées dans du texte facile à lire pour un humain, mais plus gourmand en ressources.
-- les langages dits bas niveau, dont les instructions sont plus difficilement lisibles pour un humain, donc plus proche de la machine, donc plus optimisé. [Vous trouverez un exemple juste ici](https://miro.medium.com/max/1352/0*-Il8DFT-ga-U_sJF.png. 
+- les langages haut niveau, où les instructions sont rédigées dans du texte facile à lire pour un humain, mais plus gourmand en ressources (notamment en espace et puissance de calcul).
+- les langages dits bas niveau, dont les instructions sont plus difficilement lisibles pour un humain, donc plus proches de la machine, donc plus optimisés. [Vous trouverez un exemple juste ici](https://miro.medium.com/max/1352/0*-Il8DFT-ga-U_sJF.png. 
 
 Ensembles, nous apprendrons à manipuler le langage **haut niveau** JavaScript.
 
@@ -119,4 +120,6 @@ Et voilà ! Vous avez exécuté vos premières lignes de JavaScript ! 🎉
 - Relire le cours. Vous y accédez depuis `Teams` > `scpo-fall-2021` > `Teams repls` > `View team repls` > `cours-scpo`. Je vous conseille de le mettre en favori pour pouvoir le retrouver facilement.
 - Dans `Teams` > `scpo-fall-2021` > `Teams Project`, vous trouverez des exercices pour chaque séance du cours. Vous devrez réaliser le quiz de la séance 1. Voici [le lien juste ici](https://replit.com/@scpo-fall-2021/1-introductionquiz).
 
-Je vous mets juste ici un screencast pour vous apprendre à réaliser votre exercice, et à le corriger 👇 
+Je vous mets juste ici un screencast pour vous apprendre à réaliser votre exercice, et à le corriger 👇
+
+[![Screencast intro](./images/screencast-screenshot.png)](https://youtu.be/y-pAe5tR3Ow)
