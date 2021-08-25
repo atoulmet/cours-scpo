@@ -27,8 +27,8 @@ La compétence principale des développeurs et développeuses est de savoir form
 
 ![À 42, ni cours, ni professeur](./images/42-logo.png)
 
-Je vous ai préparé [une liste d'astuces](./make-google-search.md) pour faire une recherche Google efficace.
-Une fois cette compétence acquise elle vous servira dans tous les domaines, même des domaines insoupçonnés (bricolage, dépannage, etc.).
+Je vous ai préparé [une liste d'astuces](https://replit.com/@scpo-fall-2021/cours-texte-scpo#S1-Introduction/make-google-search.md) pour faire une recherche Google efficace.
+Une fois cette compétence acquise elle vous servira dans tous les domaines, même des domaines insoupçonnés (bricolage, électronique, etc.).
 
 
 ## Faites une première approche du code
@@ -120,6 +120,5 @@ Et voilà ! Vous avez exécuté vos premières lignes de JavaScript ! 🎉
 - Relire le cours. Vous y accédez depuis `Teams` > `scpo-fall-2021` > `Teams repls` > `View team repls` > `cours-scpo`. Je vous conseille de le mettre en favori pour pouvoir le retrouver facilement.
 - Dans `Teams` > `scpo-fall-2021` > `Teams Project`, vous trouverez des exercices pour chaque séance du cours. Vous devrez réaliser le quiz de la séance 1. Voici [le lien juste ici](https://replit.com/@scpo-fall-2021/1-introductionquiz).
 
-Je vous mets juste ici un screencast pour vous apprendre à réaliser votre exercice, et à le corriger 👇
+Je vous mets juste ici un screencast (une vidéo où je filme mon écran) pour vous apprendre à réaliser votre exercice, et à le corriger : [allez sur ce lien Youtube](https://youtu.be/y-pAe5tR3Ow)👈.
 
-[![Screencast intro](./images/screencast-screenshot.png)](https://youtu.be/y-pAe5tR3Ow)
