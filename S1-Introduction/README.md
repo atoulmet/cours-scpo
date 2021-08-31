@@ -62,7 +62,7 @@ Certains langages sont plus adaptés pour des utilisations particulières.
 
 On peut distinguer :
 - les langages haut niveau, où les instructions sont rédigées dans du texte facile à lire pour un humain, mais plus gourmand en ressources (notamment en espace et puissance de calcul).
-- les langages dits bas niveau, dont les instructions sont plus difficilement lisibles pour un humain, donc plus proches de la machine, donc plus optimisés. [Vous trouverez un exemple juste ici](https://miro.medium.com/max/1352/0*-Il8DFT-ga-U_sJF.png. 
+- les langages dits bas niveau, dont les instructions sont plus difficilement lisibles pour un humain, donc plus proches de la machine, donc plus optimisés. Par exemple, vous trouverez [le code source ayant servi à faire décoller Apollo 11 en libre accès juste ici](https://github.com/chrislgarry/Apollo-11).
 
 Ensembles, nous apprendrons à manipuler le langage **haut niveau** JavaScript.
 
