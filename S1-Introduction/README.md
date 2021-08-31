@@ -62,9 +62,9 @@ Certains langages sont plus adaptés pour des utilisations particulières.
 
 On peut distinguer :
 - les langages haut niveau, où les instructions sont rédigées dans du texte facile à lire pour un humain, mais plus gourmand en ressources (notamment en espace et puissance de calcul).
-- les langages dits bas niveau, dont les instructions sont plus difficilement lisibles pour un humain, donc plus proches de la machine, donc plus optimisés. Par exemple, vous trouverez [le code source ayant servi à faire décoller Apollo 11 en libre accès juste ici](https://github.com/chrislgarry/Apollo-11).
+- les langages dits bas niveau, dont les instructions sont plus difficilement lisibles pour un humain, donc plus proches de la machine, donc plus optimisés. Par exemple, vous trouverez [le code source ayant servi à faire décoller Apollo 11 en libre accès juste ici](https://github.com/chrislgarry/Apollo-11). Pour aller voir un peu plus en détail, je vous conseille d'aller voir les fichiers dans COMANCHE055, [typiquement ALARM_AND_ABORT.agc](https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/ALARM_AND_ABORT.agc).
 
-Ensembles, nous apprendrons à manipuler le langage **haut niveau** JavaScript.
+Ce qui nous attend ensembles est plus simple et abordable que cela puisque nous apprendrons à manipuler le langage **haut niveau** JavaScript.
 
 La développeuse ou le développeur va écrire son code dans un Editeur de texte : c'est un peu comme un Microsoft Word, sauf qu'il s'agit ici d'une version pour écrire du code. 
 Il faudra ensuite exécuter ses commandes dans un terminal : un peu comme l'interface de votre ordinateur, sauf qu'il n'y a que du texte qui représente vos fichiers, et sur lequel vous lancez donc vos commandes.
