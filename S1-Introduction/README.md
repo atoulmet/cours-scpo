@@ -121,4 +121,3 @@ Et voilà ! Vous avez exécuté vos premières lignes de JavaScript ! 🎉
 - Dans `Teams` > `scpo-fall-2021` > `Teams Project`, vous trouverez des exercices pour chaque séance du cours. Vous devrez réaliser le quiz de la séance 1. Voici [le lien juste ici](https://replit.com/@scpo-fall-2021/1-introductionquiz).
 
 Je vous mets juste ici un screencast (une vidéo où je filme mon écran) pour vous apprendre à réaliser votre exercice, et à le corriger : [allez sur ce lien Youtube](https://youtu.be/y-pAe5tR3Ow)👈.
-
