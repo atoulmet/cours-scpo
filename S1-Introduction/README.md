@@ -14,14 +14,17 @@ Nous le verrons ensembles en classe, mais je vous récapitule ici ce que nous al
 L'évaluation sera faite tout au long du semestre. 
 Chaque semaine, vous aurez des exercices à réaliser pour la séance suivante. 
 À la fin du semestre, vous aurez un rendu à réaliser.
-Votre note finale dépendra de votre participation, de votre régularité dans les exercices hebdomadaires, ainsi que de votre rendu final.
+Votre note finale dépendra de :
+- votre participation, 
+- de votre régularité dans les exercices hebdomadaires, 
+- ainsi que de votre rendu final.
 
 
 ### Méthodologie
 
 La méthodologie de ce cours sera différente de ce dont vous avez l'habitude à Sciences Po.
 
-Elle sera inspirée du *learning by doing*. Nous ferons des exercices directement en cours, mais vous aurez également des exercices à faire par vous-mêmes. Parfois, vous n'aurez pas tous les éléments, vous aurez alors besoin d'interroger votre premier allié dans le développement : Google. 
+Elle sera inspirée du *learning by doing*. Nous ferons des exercices directement en cours, mais vous aurez également des exercices à faire par vous-mêmes. Parfois, vous n'aurez pas tous les éléments. Vous aurez alors besoin d'interroger votre premier allié dans le développement : Google. 
 
 La compétence principale des développeurs et développeuses est de savoir formuler de bonnes recherches sur **Google** (souvenez-vous de la pédagogie à 42, où il n'y a ni cours, ni professeur).
 
