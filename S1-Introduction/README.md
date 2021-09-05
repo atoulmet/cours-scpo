@@ -14,14 +14,17 @@ Nous le verrons ensembles en classe, mais je vous récapitule ici ce que nous al
 L'évaluation sera faite tout au long du semestre. 
 Chaque semaine, vous aurez des exercices à réaliser pour la séance suivante. 
 À la fin du semestre, vous aurez un rendu à réaliser.
-Votre note finale dépendra de votre participation, de votre régularité dans les exercices hebdomadaires, ainsi que de votre rendu final.
+Votre note finale dépendra de :
+- votre participation, 
+- de votre régularité dans les exercices hebdomadaires, 
+- ainsi que de votre rendu final.
 
 
 ### Méthodologie
 
 La méthodologie de ce cours sera différente de ce dont vous avez l'habitude à Sciences Po.
 
-Elle sera inspirée du *learning by doing*. Nous ferons des exercices directement en cours, mais vous aurez également des exercices à faire par vous-mêmes. Parfois, vous n'aurez pas tous les éléments, vous aurez alors besoin d'interroger votre premier allié dans le développement : Google. 
+Elle sera inspirée du *learning by doing*. Nous ferons des exercices directement en cours, mais vous aurez également des exercices à faire par vous-mêmes. Parfois, vous n'aurez pas tous les éléments. Vous aurez alors besoin d'interroger votre premier allié dans le développement : Google. 
 
 La compétence principale des développeurs et développeuses est de savoir formuler de bonnes recherches sur **Google** (souvenez-vous de la pédagogie à 42, où il n'y a ni cours, ni professeur).
 
@@ -114,6 +117,45 @@ Lançons-nous dans votre premier exercice :
 ![Votre premier console.log()](./images/consolelog.gif)
 
 Et voilà ! Vous avez exécuté vos premières lignes de JavaScript ! 🎉
+
+## Découvrez votre premier langage : Javascript
+
+JavaScript, dont je vous parlerai souvent en disant "JS", est LE langage du web. Il est le seul langage de programmation à être exécuté directement depuis dans le navigateur. Je vous fais une petite démonstration juste en dessous c.
+
+![Le JS s'exécute dans n'importe quel navigateur](./images/js-console.gif)
+
+Pour vous donner quelques avantages à utiliser JS :
+- Il est considéré comme un langage haut niveau, donc plus proche de l'humain.
+- La particularité de JavaScript est qu'il peut être aussi bien utilisé côté frontend (ce que l'utilisateur voit), que côté backend (ce qui fait tourner les datas et tout le reste), donc cela permet de garder le même langage des deux côtés. Mais nous nous intéresserons davantage à cette question plus tard.
+- la communauté autour de JS très active, ce qui permet d'avoir de nombreux outils en libre accès.
+
+Un inconvénient assez connu de JavaScript est que le langage connaît des mises à jour tous les ans. Ce qui peut parfois le rendre difficile à suivre. Pour les développeurs pro de JS, on parle de "JS fatigue".
+
+Si vous souhaitez en apprendre davantage sur l'histoire de JS, vous pouvez regarder [le début de cette vidéo](https://www.youtube.com/watch?v=Sh6lK57Cuk4) (attention, elle utilise des termes assez techniques).
+
+## Appropriez-vous la syntaxe
+
+Pour le moment, nous allons uniquement manipuler notre JS dans replit (au moins durant les 6 premières séances). Mais voyons quelques éléments de syntaxe.
+
+### Les console.log()
+Alors, il ne s'agit pas de syntaxe à proprement parler, mais une méthode qui permet d'afficher des éléments. Nous l'avons déjà utilisé.
+
+Cette méthode est particulièrement utile, et est employée par tous les développeurs et développeuses JS.
+
+### Les commmentaires
+
+Tous les langages permettent d'écrire des commentaires. Il s'agit d'une syntaxe qui permet de signaler dans notre code qu'il s'agit uniquement de commentaires, et qu'ils ne doivent donc pas être interprétés par la machine, uniquement lus par les humains.
+
+Les commentaires sont très utiles pour faciliter la relecture du code.
+
+En JavaScript, ils se caractérisent par un double slash : `//`.
+
+VOus pouvez les placer avant une ligne de code, ou à la fin
+
+```
+// Mon commentaire 1
+console.log(42) // Mon commentaire 2
+```
 
 ## Pour la prochaine séance
 

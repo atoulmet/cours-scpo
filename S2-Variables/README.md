@@ -1,129 +1,79 @@
 # Maniez les variables
 
-La semaine dernière, vous avez vu les bases théoriques du développement, mais le moment est maintenant venu de nous plonger dans la pratique. 🔥 Pour cela, nous allons utiliser le langage JavaScript.
-
-## Découvrez votre premier langage : Javascript
-
-JavaScript, dont je vous parlerai souvent en disant "JS", est LE langage du web. Il est le seul langage de programmation à être exécuté directement depuis dans le navigateur. Je vous fais une petite démonstration juste en dessous c.
-
-![Le JS s'exécute dans n'importe quel navigateur](./images/js-console.gif)
-
-Pour vous donner quelques avantages à utiliser JS :
-- Il est considéré comme un langage haut niveau, donc plus proche de l'humain.
-- La particularité de JavaScript est qu'il peut être aussi bien utilisé côté frontend (ce que l'utilisateur voit), que côté backend (ce qui fait tourner les datas et tout le reste), donc cela permet de garder le même langage des deux côtés. Mais nous nous intéresserons davantage à cette question plus tard.
-- la communauté autour de JS très active, ce qui permet d'avoir de nombreux outils en libre accès.
-
-Un inconvénient assez connu de JavaScript est que le langage connaît des mises à jour tous les ans. Ce qui peut parfois le rendre difficile à suivre. Pour les développeurs pro de JS, on parle de "JS fatigue".
-
-Si vous souhaitez en apprendre davantage sur l'histoire de JS, vous pouvez regarder [le début de cette vidéo](https://www.youtube.com/watch?v=Sh6lK57Cuk4) (attention, elle utilise des termes assez techniques).
-
-## Appropriez-vous la syntaxe
-
-Pour le moment, nous allons uniquement manipuler notre JS dans replit (au moins durant les 6 premières séances). Mais voyons quelques éléments de syntaxe.
-
-### Les console.log()
-Alors, il ne s'agit pas de syntaxe à proprement parler, mais une méthode qui permet d'afficher des éléments. Nous l'avons déjà utilisé.
-
-Cette méthode est particulièrement utile, et est employée par tous les développeurs et développeuses JS.
-
-### Les commmentaires
-
-Tous les langages permettent d'écrire des commentaires. Il s'agit d'une syntaxe qui permet de signaler dans notre code qu'il s'agit uniquement de commentaires, et qu'ils ne doivent donc pas être interprétés par la machine, uniquement lus par les humains.
-
-Les commentaires sont très utiles pour faciliter la relecture du code.
-
-En JavaScript, ils se caractérisent par un double slash : `//`.
-
-VOus pouvez les placer avant une ligne de code, ou à la fin
-
-```
-// Mon commentaire 1
-console.log(42) // Mon commentaire 2
-```
+La semaine dernière, vous avez vu les bases théoriques du développement, et vous avez pu manipuler quelques fichiers basiques de JS, avec des `console.log` et des commentaires. Mais le moment est maintenant venu de nous plonger dans la pratique. 🔥
 
 ## Appréhendez les variables
 
-Jusqu'à maintenant, nous avons utilisé des valeurs directement dans nos console.log, qui n'étaient donc utilisées qu'une seule fois. 
+Pour l'instant, nous avons utilisé des valeurs directement dans nos console.log, qui n'étaient donc utilisées qu'une seule fois. 
 
 Mais comment faire si vous souhaitez faire une opération complexe ? Et réutiliser le résultat ?!
 
 Les variables sont faites pour ça !
 
-Elles nous permettent de mémoriser simplement des valeurs, et de pouvoir les utiliser dès que nécessaire. Chaque variable est nommée. 
+Elles nous permettent de mémoriser simplement des valeurs, et de pouvoir les utiliser dès que nécessaire.
 
-On peut alors voir notre programme comme une sorte de grand meuble, dans lequel il y a des tiroirs. Les tiroirs vont permettre de stocker nos affaires (nos variables). Les tiroirs ont des sortes d'étiquettes, les noms de nos variables. Pour affecter une donnée à une variable, on utilise le signe `=` ainsi que le mot clé de variable `let`.
+Concrètement, qu'est-ce que ça veut dire d'un point de vue informatique. Ça veut dire qu'on dit à notre ordinateur ordonne à notre ordinateur de prendre une partie de sa mémoire, d'y stocker le contenu que l'on souhaite, et notre variable va pointer sur cette valeur.
+
+Chaque variable est nommée. 
+
+On peut alors voir notre programme comme une sorte de grand meuble, dans lequel il y a des tiroirs. Les tiroirs vont permettre de stocker nos affaires (nos variables). Les tiroirs sont des sortes d'étiquettes, les noms de nos variables. Pour affecter une donnée à une variable, on utilise le signe `=` ainsi que le mot clé de variable `let`.
 
 Nous allons ici créer la variable `maVariable`, dans laquelle on exécute l'opération "6 * 7" ce qui nous donne :
 ```
-const maVariable = 6 * 7
+let maVariable = 6 * 7
 ```
 
 On fait un console.log... Et on a bien le résultat ! 🎉
 
-![La variable permet de stocker la multiplication](./images/demo-var.gif)
+![La variable permet de stocker le résultat de la multiplication](./images/demo-var.gif)
 
 Essayez avec une addition, une soustraction, une multiplication et une division !
 
-## Assignez des valeurs vos variables avec const et let
+Pour vérifier que vous avez bien compris,[ on fait le premier exercice de la séance.](https://replit.com/@scpo-fall-2021/S2-variablesexercice-1#index.js)
 
-### Le cas de `const`
-Mais une fois la variable déclarée, est-il possible de changer la valeur qui lui est affectée ?
 
-Essayez pour voir.
-On fait :
+## Découvrez les types
+
+La semaine dernière, vous avez écrit du texte. Pour cela, vous avez utilisé les accolades `" "`. Pour utiliser un nombre, vous avez pu l'écrire directement. Voilà maintenant le moment venu de comprendre pourquoi : il s'agit en fait de types différents. 
+
+Chaque valeur que l'on utilise dans le code est d'un type donné.
+
+Je vous disais que lorsqu'on crée une variable, on dit à notre machine (notre ordinateur) "tu vas dans ta mémoire, et tu y stockes cette valeur". Et si on pousse encore plus, vous savez que tout est stocké en binaire (des 0 et des 1). Donc l'ordinateur va traduire notre valeur en 0 et 1, et la stocker à l'endroit qui correspond à notre variable. 
+
+SAUF QUE. Un nombre traduit en binaire ne prend pas le même espace de stockage qu'une chaîne de caractères. C'est pour cela qu'historiquement nous avons les types. Certains langages exigent dès la déclaration de la variable qu'on lui précise de quel type elle est.
+Exemple 👇
 ```
-const maVariable = 6 * 7
-maVariable = 10
-console.log(maVariable)
-```
-
-...Et on a une erreur !
-![Erreur de changement de valeur](./images/error.png)
-
-C'est normal, `const` ne permet pas de changer la valeur assignée à la variable `maVariable`.
-Ce type de variable a été créé pour avoir une rigueur dans le code, où on ne peut pas changer la valeur assignée. Si on a besoin d'assigner une nouvelle valeur, on peut tout simplement déclarer une nouvelle variable :
-```
-const maVariable = 6 * 7
-const maNouvelleVariable = 10
-console.log(maVariable, maNouvelleVariable)
+int monNombre = 42 // Int pour integer, donc c'est un nombre
+string maChaine = "Bonjour"
 ```
 
-Et voilà ! 🎉
-
-### Changez vos valeurs assignées avec `let`
-Si vous avez vraiment besoin de changer de valeur, vous pouvez aussi utiliser `let`, qui permet de changer de valeur assignée. 
-
-Typiquement :
+JavaScript est beaucoup plus flexible, et fait tout le travail pour nous. Ainsi, on peut totalement changer de type sans effort :
 ```
-let ceciEstUnTest = 0
-ceciEstUnTest = 25
-// Affichera bien 25 ici
-console.log(ceciEstUnTest)
+let maVariable = "Hello world"
+maVariable = 13
 ```
 
-Pour vous donner un exemple où une variable est utile : lorsqu'on souhaite incrémenter notre valeur (l'augmenter régulièrement). Voici un exemple 👇
+`maVariable` va alors successivement pointer sur des zones de mémoire qui prennent des tailles différentes.
+
+La notation des guillemets permet à l'ordinateur de comprendre directement de quoi on parle.
+
+## Vérifiez un type avec typeof
+
+J'en profite pour vous montrer un outil très utile pour connaître le type d'une variable : [l'opérateur `typeof`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/typeof). Pour l'utiliser, il vous suffit de faire :
 ```
-let compteur = 1
-compteur = compteur + 1
-compteur = compteur + 1
-compteur = compteur + 1
-console.log(compteur)
+let maVariable = `Bonjour Paris`
+typeof maVariable
+// Ici, typeoff renvoie bien `string` mais essayez par vous-même !
 ```
-
-
-### N'utilisez pas `var`
-
-Dans les anciennes versions de JavaScript, `let` et `const` n'existaient pas. À la place, on avait `var` dont le comportement était un peu différent. Ces différences rentrent un peu plus dans la technique, dont vous n'aurez pas besoin pour le moment. Gardez juste à l'esprit qu'il vaut mieux utiliser `var`. Donc si vous le voyez dans un morceau de code que vous trouvez en ligne, essayez de le remplacer par `let` ou `const`.
-
 
 ## Manipulez les number et string
 
 ### Les numbers
 
-Commençons par les numbers. Vous vous en êtes déjà servi sans vous en rendre compte : les number. Pour les utiliser, pas besoin de syntaxe particulière. Vous utilisez simplement des chiffres. 
+Commençons par les numbers. Pour les utiliser, pas besoin de syntaxe particulière. Vous utilisez simplement des chiffres. 
 
 ```
-const maVariable = 7
+let maVariable = 7
 ```
 
 Vous pouvez également utiliser des nombres décimaux. Pour cela, vous devez utiliser le point et non la virgule comme ci-dessous 👇
@@ -156,13 +106,15 @@ console.log('Hello')
 console.log(`Hello`)
 ```
 
-Même si vous ne mettez rien entre les guillemets, il s'agit tout de même d'une string.
+Même si vous ne mettez rien entre les guillemets, il s'agit tout de même d'une string. Une string vide, mais une string tout de même.
+
+#### Faites des opérations sur les strings
 
 ### Faites des concaténations
 
 Il est possible de concaténer deux strings (c'est-à-dire les relier) assez facilement en utilisant le signe `+`. Pour cela, vous écrivez votre string, puis vous indiquez `+`, et vous mettez votre deuxième string. Ce qui nous donne :
 ```
-const concatenateString = "J'habite à " + 'Paris'
+let concatenateString = "J'habite à " + 'Paris'
 ```
 
 ### Insérez des variables dans vos strings
@@ -174,33 +126,85 @@ La syntaxe est un peu particulière, mais rassurez-vous : si vous ne vous en sou
 On déclare donc une variable `school`. Et on lui assigne la valeur, "Sciences Po".
 Ce qui nous donne : 
 ```
-const school = "Sciences Po"
+let school = "Sciences Po"
 ```
 
 On peut maintenant créer notre string 👇
 ```
-const school = "Sciences Po"
-const myString = `Je suis étudiante à ${school}`
+let school = "Sciences Po"
+let myString = `Je suis étudiante à ${school}`
 console.log(myString)
 ```
 
 Ici on obtient bien la string `Je suis étudiante à Sciences Po`. Yay ! 🎉
 
-## Récapitulatif des types
+## Activités du cours
 
-Pour l'instant vous avez vu deux types : les strings et les numbers. Mais il en existe d'autres. Je vous mets la syntaxe juste ici des types les plus importants en JS :
+- [Exercice 2](https://replit.com/team/scpo-fall-2021/S2-variablesexercice-2)
+
+
+## Maniez les autres types
+
+Vous avez donc vu les strings et les numbers, qui sont les premiers types 
+
+### Les booléens
+
+Un des types essentiels en développement [est les booléens](https://developer.mozilla.org/fr/docs/Glossary/Boolean). Leur valeur peut être `true` ou `false`. Vous pouvez y penser comme à un interrupteur, où `true` est l'équivalent de `on` et `false` correspond à `off`. Les booléens permettent d'intégrer de la logique au code (par exemple exécuter des instructions si un booléen est à `true`). 
+
+Comme ce que vous avez vu, pour définir un booléen, il vous suffit de faire :
 ```
-const number = 42
-const string = "Voilà ma chaîne de caractères"
-const booléen = true
-const objet = {
-    "maClé1": "ma Valeur1",
-    "maClé2": "ma Valeur2"
-}
-const tableau = ["valeur1", "valeur2", "valeur3"]
+let myVariable = true
 ```
 
-## Pour la semaine prochaine
+### Les manières de gérer les erreurs : undefined et null
 
-- [Exercice 1](https://replit.com/@scpo-fall-2021/S2-variablesexercice-1#index.js)
-- [Exercice 2](https://replit.com/@scpo-fall-2021/S2-variablesexercice-2#index.js)
+Comme son nom l'indique, `undefined` est affecté aux variables qui viennent d'être déclarées sans avoir de valeur attribuée.
+
+De la même manière, `null` est un littéral JavaScript représentant la nullité : aucune valeur pour l'objet n'est présente.
+
+Il arrive de rencontrer ces types lorsqu'il y a des erreurs dans le code. Nous ne les utiliserons pas pour le moment, du moins pas volontairement 🙈. 
+
+
+## Manipulez vos variables avec les méthodes
+
+À chaque fois que vous créez une nouvelle variable, elle est livrée avec des méthodes qui vous permettent de faire des opérations dessus. Un peu comme un kit.
+
+Effectivement, chacun des types de données nous donne accès à des méthodes qui lui sont associées, et qui vont nous permettre d'agir dessus. Pour les strings, vous avez des méthodes pour, par exemple :
+- mettre tous vos caractères en majuscule ([toUpperCase](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase))
+- remplacer une lettre par une autre (replace et [replaceAll](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll))
+- vérifier si un mot est compris dans notre chaîne de caractères ([includes](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/includes))
+- répéter une chaîne de caractères un certain nombre de fois ([repeat](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)).
+- etc.
+
+> Pourquoi utiliser des méthodes et changer une valeur par une autre ?
+
+Voyons donc à quoi cela ressemble... 🔥
+
+### Initiez vous aux méthodes avec les méthodes associées aux strings
+La syntaxe pour accéder aux méthodes est la suivante :
+```
+let maPhraseEnMaj = "Bonjour tout le monde".toUpperCase()
+consoleLog(maPhraseEnMaj)
+// Ce qui nous donne "BONJOUR TOUT LE MONDE"
+```
+
+Ici, toUpperCase est une sorte d'opération qu'on applique à notre string => on récupère le résultat dans une nouvelle variable `maPhraseEnMaj`.
+
+De la même manière, pour changer tous les espaces de ma chaîne de caractères par l'emoji 👏
+On peut faire :
+```
+let clapStr = "Ceci est ma phrase".replaceAll(' ', '👏')
+console.log(clapStr)
+
+On aura alors `"Ceci👏est👏ma👏phrase"`
+```
+
+Vous voyez, ici on a précisé entre parenthèses ce qu'on voulait faire : avant la virgule, on lui doit ce qu'on veut remplacer, après la virgule, par quoi on veut remplacer.
+
+`ILLUSTRATION DES PARAMÈTRES DE LA MÉTHODE`
+
+Pour la semaine prochaine :
+
+Relire le cours
+Valider tous les exercices faits en classe
+Finir les autres exercices

@@ -1,15 +1,17 @@
-# Transformez vos valeurs avec les méthodes
+# Allez plus loin dans les types
 
-La semaine dernière, nous avions vu les strings et les numbers pour manipuler du texte et des nombres.
-Il s'agit des types primitifs qu'accepte JavaScript. 
+## Récapitulatif des types
 
-> Si vous voulez en apprendre davantage sur les types, n'hésitez pas à jeter un oeil au document "types-de-données.md".
-
-J'en profite pour vous montrer un outil très utile pour connaître le type d'une variable : [l'opérateur `typeof`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/typeof). Pour l'utiliser, il vous suffit de faire :
+Pour l'instant vous avez vu deux types : les strings et les numbers. Mais il en existe d'autres. Je vous mets la syntaxe juste ici des types les plus importants en JS :
 ```
-const maVariable = `Bonjour Paris`
-typeof maVariable
-// Ici, typeoff renvoie bien `string` mais essayez par vous-même !
+let number = 42
+let string = "Voilà ma chaîne de caractères"
+let booléen = true
+let objet = {
+    "maClé1": "ma Valeur1",
+    "maClé2": "ma Valeur2"
+}
+let tableau = ["valeur1", "valeur2", "valeur3"]
 ```
 
 ## Découvrez les objets
@@ -106,43 +108,6 @@ On a donc :
 
 > Exercice pratique : faire tableau pour les trois films Seigneur des Anneaux => tableau d'objets qui contiennent eux mêmes tableaux et objets, avec propriétés : titre, personnages, etc.
 
-## Accédez aux méthodes
-
-Vous commencez à avoir une bonne vision d'ensemble des différents types de donnée qu'on peut manipuler en JS. C'est très bien ! Mais à partir de ces données, est-ce qu'il est possible de les manipuler ? 
-
-Si je vous pose la question, vous vous doutez bien que la réponse est "oui".
-
-Effectivement, chacun des types de données nous donne accès à des méthodes qui lui sont associées, et qui vont nous permettre d'agir dessus. Pour les strings, vous avez des méthodes pour, par exemple :
-- mettre tous vos caractères en majuscule ([toUpperCase](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase))
-- remplacer une lettre par une autre (replace et [replaceAll](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll))
-- vérifier si un mot est compris dans notre chaîne de caractères ([includes](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/includes))
-- répéter une chaîne de caractères un certain nombre de fois ([repeat](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)).
-- etc.
-
-Voyons donc à quoi cela ressemble... 🔥
-
-### Initiez vous aux méthodes avec les méthodes associées aux strings
-La syntaxe pour accéder aux méthodes est la suivante :
-```
-const maPhraseEnMaj = "Bonjour tout le monde".toUpperCase()
-consoleLog(maPhraseEnMaj)
-// Ce qui nous donne "BONJOUR TOUT LE MONDE"
-```
-
-Ici, toUpperCase est une sorte d'opération qu'on applique à notre string => on récupère le résultat dans une nouvelle variable `maPhraseEnMaj`.
-
-De la même manière, pour changer tous les espaces de ma chaîne de caractères par l'emoji 👏
-On peut faire :
-```
-const clapStr = "Ceci est ma phrase".replaceAll(' ', '👏')
-console.log(clapStr)
-
-On aura alors `"Ceci👏est👏ma👏phrase"`
-```
-
-Vous voyez, ici on a précisé entre parenthèses ce qu'on voulait faire : avant la virgule, on lui doit ce qu'on veut remplacer, après la virgule, par quoi on veut remplacer.
-
-`ILLUSTRATION DES PARAMÈTRES DE LA MÉTHODE`
 
 ### Un exemple de méthode associée à un tableau
 
