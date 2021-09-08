@@ -175,12 +175,14 @@ Il arrive de rencontrer ces types lorsqu'il y a des erreurs dans le code. Nous n
 
 Effectivement, chacun des types de données nous donne accès à des méthodes qui lui sont associées, et qui vont nous permettre d'agir dessus. Pour les strings, vous avez des méthodes pour, par exemple :
 - mettre tous vos caractères en majuscule ([toUpperCase](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase))
-- remplacer une lettre par une autre (replace et [replaceAll](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll))
+- remplacer une lettre par une autre ([replace](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replace) et [replaceAll](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll))
 - vérifier si un mot est compris dans notre chaîne de caractères ([includes](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/includes))
 - répéter une chaîne de caractères un certain nombre de fois ([repeat](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)).
 - etc.
 
-> Pourquoi utiliser des méthodes et changer une valeur par une autre ?
+> Pourquoi utiliser des méthodes et changer une valeur par une autre ? 
+
+> ans le monde du travail, les méthodes sont très utiles pour modifier des éléments qui ont pu être entrés par l'utilisateur par exemple, afin de les "formater" selon les besoins de l'interfaces
 
 Voyons donc à quoi cela ressemble... 🔥
 
@@ -205,10 +207,11 @@ On aura alors `"Ceci👏est👏ma👏phrase"`
 
 Vous voyez, ici on a précisé entre parenthèses ce qu'on voulait faire : avant la virgule, on lui doit ce qu'on veut remplacer, après la virgule, par quoi on veut remplacer.
 
-`ILLUSTRATION DES PARAMÈTRES DE LA MÉTHODE`
 
 Pour la semaine prochaine :
 
-Relire le cours
-Valider tous les exercices faits en classe
-Finir les autres exercices
+- Relire le cours
+- Valider tous les exercices faits en classe
+- Finir les autres exercices
+
+La semaine prochaine, nous verrons les autres types restants, les méthodes qui leur sont associées, et nous verrons quelques objets globaux !
