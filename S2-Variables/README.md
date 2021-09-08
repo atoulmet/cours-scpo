@@ -40,7 +40,7 @@ Chaque valeur que l'on utilise dans le code est d'un type donné.
 
 Je vous disais que lorsqu'on crée une variable, on dit à notre machine (notre ordinateur) "tu vas dans ta mémoire, et tu y stockes cette valeur". Et si on pousse encore plus, vous savez que tout est stocké en binaire (des 0 et des 1). Donc l'ordinateur va traduire notre valeur en 0 et 1, et la stocker à l'endroit qui correspond à notre variable. 
 
-SAUF QUE. Un nombre traduit en binaire ne prend pas le même espace de stockage qu'une chaîne de caractères. C'est pour cela qu'historiquement nous avons les types. Certains langages exigent dès la déclaration de la variable qu'on lui précise de quel type elle est.
+SAUF QUE. Un nombre traduit en binaire ne prend pas le même espace de stockage qu'une chaîne de caractères. C'est pour cela qu'historiquement nous avons les types. Certains langages exigent dès la déclaration de la variable qu'on lui précise de quel type elle est. Pour reprendre notre comparaison avec les tiroirs, on ne pourra pas mettre n'importe quoi dans un tout petit tiroir.
 Exemple 👇
 ```
 int monNombre = 42 // Int pour integer, donc c'est un nombre
@@ -93,6 +93,10 @@ De la même manière, vous pouvez utiliser des nombres négatifs en JS avec un s
 console.log(2.5 - 42)
 // Le résultat sera -39.5
 ```
+
+### Faites des opérations de maths
+
+`+`, `-`, `*`, `/`, `%`, etc.
 
 ### Les strings
 

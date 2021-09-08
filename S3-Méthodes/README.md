@@ -12,7 +12,63 @@ let objet = {
     "maClé2": "ma Valeur2"
 }
 let tableau = ["valeur1", "valeur2", "valeur3"]
+undefined
+null
 ```
+
+## Revenez sur les variables
+
+Pour le moment, nous avons déclaré nos variables avec `let`. Mais il ne s'agit pas de l'unique manière de les déclarer.
+
+### Changez vos valeurs assignées avec `let`
+Si vous avez besoin de changer de valeur, vous pouvez utiliser `let`, qui permet de changer de valeur assignée, comme nous l'avons vu jusqu'ici. Mais dans les faits, la bonne pratique en JS demande d'utiliser un autre type de déclaration que nous verrons juste après. 
+
+Typiquement :
+```
+let ceciEstUnTest = 0
+ceciEstUnTest = 25
+// Affichera bien 25 ici
+console.log(ceciEstUnTest)
+```
+
+Pour vous donner un exemple où une variable est utile : lorsqu'on souhaite incrémenter notre valeur (l'augmenter régulièrement). Voici un exemple 👇
+```
+let compteur = 1
+compteur = compteur + 1
+compteur = compteur + 1
+compteur = compteur + 1
+console.log(compteur)
+```
+
+### Le cas de `const`
+Comme je vous l'ai dit, la bonne pratique quand on déclare des variable en JS consiste à utiliser `const`. Mais une fois la variable déclarée, est-il possible de changer la valeur qui lui est affectée ?
+
+Essayez pour voir.
+On fait :
+```
+const maVariable = 6 * 7
+maVariable = 10
+console.log(maVariable)
+```
+
+...Et on a une erreur !
+![Erreur de changement de valeur](./images/error.png)
+
+C'est normal, `const` ne permet pas de changer la valeur assignée à la variable `maVariable`.
+Ce type de variable a été créé pour avoir une rigueur dans le code, où on ne peut pas changer la valeur assignée. Si on a besoin d'assigner une nouvelle valeur, on peut tout simplement déclarer une nouvelle variable :
+```
+const result = 6 * 7
+const half = result / 2
+console.log(result, half)
+```
+
+Et voilà ! 🎉
+
+
+### N'utilisez pas `var`
+
+Dans les anciennes versions de JavaScript, `let` et `const` n'existaient pas. À la place, on avait `var` dont le comportement était un peu différent. Ces différences rentrent un peu plus dans la technique, dont vous n'aurez pas besoin pour le moment. Gardez juste à l'esprit qu'il vaut mieux utiliser `var`. Donc si vous le voyez dans un morceau de code que vous trouvez en ligne, essayez de le remplacer par `let` ou `const`.
+
 
 ## Découvrez les objets
 
@@ -136,9 +192,12 @@ Alors comment faire pour savoir s'il existe une méthode toute faite pour ses be
 
 ## Découvrez les objets natifs en JS
 
-Nous avons vu les objets, et que des méthodes leurs sont attachées. Mais j'aimerais vous parler d'objets un peu spécifiques : les objets globaux. Ils nous permettent d'accéder à des méthodes spécifiques, directement dans n'importe quel fichier JS.
+Nous avons vu les objets, et que des méthodes leurs sont attachées. Mais j'aimerais vous parler d'objets un peu spécifiques : les objets globaux. JS nous y donne accès. Ils nous permettent d'accéder à des méthodes spécifiques, directement dans n'importe quel fichier JS.
 
-Vous avez par exemple l'objet Math, qui vous permet d'accéder à des méthodes mathématiques.
+### Objet Math 
+
+Commençons avec l'[objet Math](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Math), qui vous permet d'accéder à des méthodes mathématiques. On a notamment accès à des fonctions qui permettent d'obtenir des racines carrées, des arrondis, des exponentielles, etc.
+
 Par exemple, pour obtenir un nombre aléatoire entre 0 et 1, vous faites :
 ```
 const random = Math.random()
@@ -148,11 +207,23 @@ const random = Math.random()
 
 > Exemple pour obtenir nombre random entre 0 et 10
 
+### Objet Date
+
+L'objet Date est très utile.
+
+Essayez de faire `Date()` pour voir. Vous aurez alors une string qui correspond à la date de l'instant présent où la cela a été exécuté.
+
+Mais en interne, JS utilise ce qu'on appelle un timestamp.
+
+Essayez de faire `Date.now()`.
+Qu'est-ce que ça vous renvoie ?
+
+Un grand nombre qui a l'air un peu pris au hasard.
+
+Mais détrompez-vous, ce n'est pas du tout au hasard : il s'agit en fait du nombre de millisecondes écoulées depuis le premier janvier 1970, minuit UTC. Il s'agit d'une date de référence utilisée dans d'autres langages parce que des nombres sont plus faciles à manipuler en imformatique, notamment pour comparer des dates, que des ojets.
+
+Pour manipuler les dates en JS, notamment pour les afficher en français, je vous conseille de [suivre ce petit tuto](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/objet-date/).
+
 ### Pour la semaine prochaine
 
 Encore une fois, à vous de jouer !
-- [Exercice 1](https://replit.com/@scpo-fall-2021/S3-typesandmethods-exercice-1#index.js)
-- [Exercice 2](https://replit.com/@scpo-fall-2021/S3-typesandmethodsexercice-2#index.js)
-- [Exercice 3](https://replit.com/@scpo-fall-2021/S3-typesandmethods-exercice-3)
-- [Exercice 4](https://replit.com/@scpo-fall-2021/S3-typesandmethods-exercice-4#index.js)
-- [Exercice 5](https://replit.com/@scpo-fall-2021/S3-typesandmethods-exercice-5#index.js)
