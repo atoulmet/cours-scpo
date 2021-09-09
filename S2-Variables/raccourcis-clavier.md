@@ -26,21 +26,45 @@ L'équivalent du raccourci précédent pour les fenêtres : `cmd + n` (`n` pour 
 
 Rien de tel qu'un petit raccourci clavier pour zoomer dans une page ou dézoomer. Surtout que ce raccourci fonctionne dans de nombreux logiciels : il faut faire `cmd et +` pour zoomer (`ctrl et +`) et `cmd et -` (`ctrl et -`) pour dézoomer.
 
-## Spécifique au code / à Replit
+# Spécifique au code / à Replit
 
-### Commenter du code
-Comme nous l'avons vu en cours, il existe des raccourcis clavier très utiles :
+Comme nous l'avons vu en cours, il existe des raccourcis clavier très utiles. Je vous ai listé mes favoris juste en dessous, mais vous avez même [les démos sur la documentation de Replit](https://docs.replit.com/programming-ide/working-shortcuts).
 
-- `cmd + /` ou `ctrl + /` permet de commenter directement une ligne sélectionnée.
+## Run
+`cmd + Enter` sur Mac et `ctrl + enter` sur Windows permet d'exécuter le code directement sans cliquer sur `Run`.
 
-- `cmd + Enter` ou `ctrl + Enter` permet d'exécuter le code directement sans cliquer sur `Run`.
+## Go to top / left / right / bottom 
+flèche `⬅ ou ⬆ ou ⬇ ou ➡️` + `cmd` sur Mac permet d'aller directement en haut d'un fichier, au bout de la ligne à droite ou à gauche, ou bien à la fin d'un fichier.
 
-- flèche `⬅ ou ⬆ ou ⬇ ou ➡️` + `cmd` / flèche `⬅ ou ⬆ ou ⬇ ou ➡️` + `ctrl` permet d'aller directement en haut d'un fichier, au bout de la ligne à droite ou à gauche, ou bien à la fin d'un fichier.
-
-- flèche `⬆ ou ⬇` + `option` / flèche `⬆ ou ⬇` + `option` permet de déplacer toute une ligne.
+## Déplacer une ligne
+La flèche `⬆ ou ⬇` + `option` sur Mac permet de déplacer toute une ligne.
   
-- `maj` + `option` + flèche `⬆ ou ⬇` permet de dupliquer toute une ligne et de la placer en haut ou en bas en fonction de la flèche sur laquelle vous appuyez.
-  
-## Exclusif à Mac
+## Dupliquer une ligne
+`maj` + `option` + flèche `⬆ ou ⬇` permet de dupliquer toute une ligne et de la placer juste en haut ou en bas en fonction de la flèche sur laquelle vous appuyez.
 
-- `cmd` + `barre d'espace` vous permettra d'afficher la recherche Spotlight, et donc de chercher ultra rapidement n'importe quel élément dans votre mac. Apparemment, [vous avez un équivalent sur Windows, mais il n'est pas installé d'office](https://www.macg.co/galerie/2020/05/quinze-ans-apres-windows-10-dispose-enfin-de-son-spotlight-114149).
+## Commenter
+`cmd + /` sur Mac permet de commenter directement une ligne sélectionnée.
+
+  
+# Comment écrire les caractères spéciaux
+
+## `{}`
+Les accolades `{` et `}` s'écrivent `Option ⌥` + `(` et `Option ⌥` + `)` sur Mac et `alt gr + 4` pour `{` et `alt gr + touche +=}` pour `}` sur Windows
+
+## `[]`
+Les crochets `[` et `]` s'écrivent `⌥ + ⇧ + (` et `Option ⌥ + ⇧ + )` sur Mac et `alt gr + 5` pour `[` et `alt gr + °)]` pour `]` sur Windows
+
+## `|`
+Le pipe (barre verticale) `|` s'écrit `Option ⌥ + ⇧ + L` sur Mac et `alt gr + 6` pour Windows
+
+
+### Pour peut-être plus tard
+- Le backslash ou l’antislash `\` s'écrit `Option ⌥ + ⇧ + /` sur Mac
+
+
+
+# Exclusif à Mac
+
+## Faire une recherche rapide
+
+`cmd` + `barre d'espace` vous permettra d'afficher la recherche Spotlight, et donc de chercher ultra rapidement n'importe quel élément dans votre mac. Apparemment, [vous avez un équivalent sur Windows, mais il n'est pas installé d'office](https://www.macg.co/galerie/2020/05/quinze-ans-apres-windows-10-dispose-enfin-de-son-spotlight-114149).
