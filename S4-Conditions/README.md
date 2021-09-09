@@ -43,10 +43,6 @@ L'idée des conditions est donc de comparer une de nos variables à une valeur a
 
 Je vous mets une liste des opérateurs de comparaison ici, vous pourrez revenir la consulter au fur et à mesure.
 
-| Opérateur | Définition |
- |----------|:-------------:|------:| 
- | == | Permet de tester l’égalité sur les valeurs |
-
 Opérateur | Définition
 :-: |:- 
 == | Permet de tester l’égalité sur les valeurs
@@ -59,3 +55,7 @@ Opérateur | Définition
 <=	| Permet de tester si une valeur est inférieure ou égale à une autre
 \>=	| Permet de tester si une valeur est supérieure ou égale à une autre
 
+
+### Vérifiez l'égalité
+
+Nous commençons avec l'opérateur le plus fréquemment utilisé, qui permet de tester l'égalité entre deux valeurs. Ici, nous ne rentrerons pas dans les détails, mais sachez juste qu'il existe `==` et `===`, et que nous utiliserons uniquement `===`
