@@ -103,11 +103,11 @@ Les objets sont particulièrement utiles pour gérer les données.
 Je voudrais maintenant vous parler d'un cas un peu particulier : les tableaux. Concrètement, c'est comme un objet, mais avec une position, comme une liste d'éléments, avec 
 ```
 {
+    0: "élément0",
     1: "élément1",
     2: "élément2",
     3: "élément3",
     4: "élément4",
-    5: "élément5",
 }
 ```
 
@@ -121,7 +121,27 @@ const locations = [
     ]
 ```
 
-De la même manière, on peut faire des tableaux de strings, de numbers, d'objets, etc.
+### Comprenez l'importance des index
+
+Dans mon exemple, vous avez vu que les clés de notre tableau étaient des nombres de 0 à 4. Il s'agit en fait de ce qu'on appelle les index.
+
+Dans un tableau, (mais aussi dans une string) la position d'un élément correspond à son index dans le tableau. Souvenez-vous que pour les index, on compte toujours à partir de 0 !
+
+Ainsi, pour mon tableau 
+```
+const elements = [   ,
+    "élément1",
+    "élément2",
+    "élément3",
+    "élément4",
+    "élément5"
+]
+```
+
+si je veux obtenir uniquement élément2, je fais `elements[1]`. Alors, attention à bien compter à partir de 0 !
+
+### Manipulez les tableaux
+Jusqu'à maintenant, on a fait des tableaux de strings. De la même manière, on peut faire des tableaux de strings, de numbers, d'objets, etc.
 Si je reprends l'exemple du livre Harry Potter, je pourrais faire un array de livres :
 ```
 const books = [
@@ -148,7 +168,7 @@ const books = [
 ]
 ```
 
-De la même manière, si on souhaite accéder à un élément particulier, on peut utiliser l'index (sa position dans la liste). Souvenez-vous, on compte à partir de zéro. Si on veut le 3e élément, on peut donc faire 
+Et donc, si on souhaite accéder à un élément particulier, on peut utiliser l'index (sa position dans la liste). Souvenez-vous, on compte à partir de zéro. Si on veut le 3e élément, on peut donc faire 
 ```
 const secondElement = books[2]
 console.log(secondElement)
@@ -205,7 +225,7 @@ const random = Math.random()
 
 À vous de voir ce que vous obtenez !
 
-> Exemple pour obtenir nombre random entre 0 et 10
+> Exemple pour obtenir nombre random entre 0 et 10 => [exercice 4](https://replit.com/@scpo-fall-2021/S3-typesandmethods-exercice-4#index.js)
 
 ### Objet Date
 
