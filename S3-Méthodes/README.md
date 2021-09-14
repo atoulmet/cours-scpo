@@ -2,18 +2,18 @@
 
 ## Récapitulatif des types
 
-Pour l'instant vous avez vu deux types : les strings et les numbers. Mais il en existe d'autres. Je vous mets la syntaxe juste ici des types les plus importants en JS :
+Pour l'instant vous avez surtout vu deux types : les strings et les numbers. Mais il en existe d'autres. Je vous mets la syntaxe juste ici des types les plus importants en JS :
 ```
 let number = 42
 let string = "Voilà ma chaîne de caractères"
 let booléen = true
+undefined
+null
 let objet = {
     "maClé1": "ma Valeur1",
     "maClé2": "ma Valeur2"
 }
 let tableau = ["valeur1", "valeur2", "valeur3"]
-undefined
-null
 ```
 
 ## Revenez sur les variables
@@ -103,11 +103,11 @@ Les objets sont particulièrement utiles pour gérer les données.
 Je voudrais maintenant vous parler d'un cas un peu particulier : les tableaux. Concrètement, c'est comme un objet, mais avec une position, comme une liste d'éléments, avec 
 ```
 {
-    0: "élément0",
-    1: "élément1",
-    2: "élément2",
-    3: "élément3",
-    4: "élément4",
+    0: "élément1",
+    1: "élément2",
+    2: "élément3",
+    3: "élément4",
+    4: "élément5",
 }
 ```
 
