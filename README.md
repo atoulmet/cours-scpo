@@ -6,3 +6,5 @@ Vous trouverez dans ce repository tous les supports écrits pour les étudiant·
 Les documents nécessaires à chaque séance sont regroupés dans le dossier "séance" correspondant. Par exemple, le premier module se trouve dans le dossier 1 "S1-Introduction".
 
 À chaque fois, vous trouverez un fichier README.md qui sera la base de votre apprentissage pour le module. À partir de ce fichier, vous pourrez naviguer dans les différents exercices, et démonstrations.
+
+Certaines séances, notamment la séance 5 ont été inspirées du cours précédent de code de Maxime Alay-Eddine 🙏.

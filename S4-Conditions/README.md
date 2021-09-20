@@ -174,6 +174,10 @@ Et vous allez pouvoir combiner les `ET &&` et les `OU ||` comme vous le souhaite
 
 > Parfois, on peut se perdre dans l'utilisation des opérateurs logiques. Si c'est le cas, pas de panique. Le plus simple reste d'ouvrir une console Javascript, et de faire des `console.log` directement pour voir ce que cela donne.
 
+## Écrivons des conditions ensembles
+
+> Démo du jeu de pierre feuille ciseaux // Ou coder soi-même ?
+
 ## Le cas particulier du `switch`
 
 Avant d'en rester là avec les conditions, je tenais à vous montrer une instruction qui est très utile en JS : le `switch`. Comme son nom l'indique, le `switch` nous permet de "switcher" entre autant d'égalité de valeur que vous souhaitez.
