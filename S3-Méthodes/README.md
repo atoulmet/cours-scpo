@@ -210,8 +210,9 @@ console.log(cities.includes('London'))
 
 Alors comment faire pour savoir s'il existe une méthode toute faite pour ses besoins ? Et bien pour ça, il n'y a pas de miracle : il faut chercher dans la documentation. Typiquement, vous pouvez directement chercher sur [la doc mozilla](https://developer.mozilla.org/), mais à moins de savoir exactement le nom de sa méthode, le plus efficace reste de faire une recherche Google. Et comme toujours, à force de pratiquer, cela finit par rentrer. Mais même les développeurs professionnels recherchent régulièrement sur Google comment utiliser une méthode en particulier.
 
-## Découvrez les objets natifs en JS
+<summary>Allez plus loin, avec les objets natifs en JS</summary>
 
+<details>
 Nous avons vu les objets, et que des méthodes leurs sont attachées. Mais j'aimerais vous parler d'objets un peu spécifiques : les objets globaux. JS nous y donne accès. Ils nous permettent d'accéder à des méthodes spécifiques, directement dans n'importe quel fichier JS.
 
 ### Objet Math 
@@ -247,3 +248,6 @@ Pour manipuler les dates en JS, notamment pour les afficher en français, je vou
 ### Pour la semaine prochaine
 
 Encore une fois, à vous de jouer !
+
+</details>
+

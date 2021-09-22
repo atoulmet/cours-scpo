@@ -6,7 +6,7 @@ Maintenant que vous avez les bases pour créer des variables qui regroupent des 
 
 > Qu'est-ce que ça évoque, **les conditions** dans le code pour vous ?
 
-Il y a plusieurs manières de les écrire, mais les conditions sont la plupart du temps représentées par des `if` `else`. Ce qui veut dire : si le code correspond à cette condition, alors tu peux exécuter la série d'instruction qui suit, et s'il y a un else, tu exécutes les instructions du else. 
+Il y a plusieurs manières de les écrire, mais les conditions sont la plupart du temps représentées par des `if` / `else`. Ce qui veut dire : si le code correspond à cette condition, alors la machine peut exécuter la série d'instruction qui suit, et s'il y a un else, elle exécute les instructions du else. 
 
 On prend un exemple tout simple avec le droit d'acheter de l'alcool. Si on devait le traduire en code, cela nous donnerait :
 
@@ -52,9 +52,7 @@ Je vous mets une liste des opérateurs de comparaison ici, vous pourrez revenir 
 
 Opérateur | Définition
 :-: |:- 
-== | Permet de tester l’égalité sur les valeurs
 ===	| Permet de tester l’égalité en termes de valeurs et de types
-!=	| Permet de tester la différence en valeurs
 !==	| Permet de tester la différence en valeurs ou en types
 <	| Permet de tester si une valeur est strictement inférieure à une autre
 \>	| Permet de tester si une valeur est strictement supérieure à une autre
@@ -72,7 +70,7 @@ Essayez pour voir ! On fait 👇
 ```
 console.log(42 === 43)
 ```
-On obtient `false`, forcément
+On obtient `false`, forcément, puisque 42 n'est pas égal à 42.
 
 Mais le mieux est de l'utiliser dans des variables, je vous laisse essayer dans replit :
 ```
@@ -118,7 +116,6 @@ Je vous mets une démonstration de la syntaxe des conditions en JS dans le fichi
 
 > Exercice avec prompt qui affiche texte en fonction de l'input utilisateur (2 possibilités de `if`, puis 3 possibilités de `if`)
 
-> Réutiliser exercice pour nombre random, sauf que cette fois affiche du texte en plus en fonction pair / impair
 
 ## Découvrez les opérateurs logiques
 
@@ -144,7 +141,7 @@ Pour pour voter aux élections présidentielles en France, il faut :
 
 Ce qui nous donnerait :
 ```
-if (isFrench && hasLegalAge && isSubscribed) {
+if (isFrench === true && hasLegalAge === true && isSubscribed === true) {
     console.log("Vous pouvez voter")
 }
 
@@ -162,7 +159,7 @@ Aujourd'hui, on peut avoir le pass sanitaire en ayant :
 
 Ce qui nous donne 👇
 ```
-if (isVaccinated || hasPCRTest || hasRapidTest) {
+if (isVaccinated === true || hasPCRTest === true || hasRapidTest === true) {
     console.log("Yay ! Vous pouvez aller au cinéma, en concert, en boîte de nuit ✨")
 }
 if (else) {
@@ -173,15 +170,3 @@ if (else) {
 Et vous allez pouvoir combiner les `ET &&` et les `OU ||` comme vous le souhaitez pour traduire vos problèmes logiques. Comme en mathématiques, vous pouvez utiliser les parenthèses pour prioriser les expressions qui doivent être comparées en premier.
 
 > Parfois, on peut se perdre dans l'utilisation des opérateurs logiques. Si c'est le cas, pas de panique. Le plus simple reste d'ouvrir une console Javascript, et de faire des `console.log` directement pour voir ce que cela donne.
-
-## Écrivons des conditions ensembles
-
-> Démo du jeu de pierre feuille ciseaux // Ou coder soi-même ?
-
-## Le cas particulier du `switch`
-
-Avant d'en rester là avec les conditions, je tenais à vous montrer une instruction qui est très utile en JS : le `switch`. Comme son nom l'indique, le `switch` nous permet de "switcher" entre autant d'égalité de valeur que vous souhaitez.
-
-Je vous laisse [découvrir comment l'utiliser dans la documentation](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/switch).
-
-Vous pourrez le mettre en pratique dans l'exercice X.
