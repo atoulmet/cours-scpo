@@ -7,4 +7,8 @@ Les documents nécessaires à chaque séance sont regroupés dans le dossier "s�
 
 À chaque fois, vous trouverez un fichier README.md qui sera la base de votre apprentissage pour le module. À partir de ce fichier, vous pourrez naviguer dans les différents exercices, et démonstrations.
 
-Certaines séances, notamment la séance 5 ont été inspirées du cours précédent de code de Maxime Alay-Eddine 🙏.
+Certaines séances, notamment la séance 5 ont été inspirées du cours précédent de code de Maxime Alay-Eddine.
+
+Pour aller plus loin :
+
+- [Basic Javascript de freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)

@@ -31,7 +31,7 @@ Les paramètres vont permettre de la configurer comme on le souhaite. Ici, on a 
 
 Et derrière, on utilise notre fonction en faisant :
 ```
-const résultat = maFonction(paramètre1, paramètre2)
+maFonction(paramètre1, paramètre2)
 ```
 
 Pour simplifier, nous pouvons imaginer une fonction comme une usine de production automobile pouvant produire des véhicules Peugeot et Renault, de couleur bleue ou noire. L'utilisateur disposerait alors d'un panneau de contrôle, avec un levier "marque" pour choisir Peugeot ou Renault, et un levier "couleur" pour choisir "bleue" ou "noire".
