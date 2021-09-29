@@ -106,7 +106,7 @@ Vous l'avez déjà vu, mais les signes `>`, `<`, `>=` et  `<=` nous permettent d
 
 ### Exercez-vous
 
-Petit exercice pratique qui permet de jouer avec les opérateurs de comparaison
+Exercicse 1 et 2
 
 ## Lancez-vous dans les conditions
 
@@ -114,7 +114,7 @@ Maintenant que vous saisissez la logique des conditions, et que vous avez de quo
 
 Je vous mets une démonstration de la syntaxe des conditions en JS dans le fichier où vous allez faire l'exercice, et à vous d'écrire votre première condition ! Si vous voulez plus d'exemples, vous pouvez également [aller voir la documentation](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/if...else).
 
-> Exercice avec prompt qui affiche texte en fonction de l'input utilisateur (2 possibilités de `if`, puis 3 possibilités de `if`)
+> Exercice 3
 
 
 ## Découvrez les opérateurs logiques

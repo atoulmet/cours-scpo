@@ -74,15 +74,6 @@ accueillirEtudiant("Etienne") # Affiche : Bonjour Etienne, bienvenue à l'IEP de
 accueillirEtudiant("Anouk") # Affiche : Bonjour Anouk, bienvenue à l'IEP de Paris !
 
 
-## Les paramètres
-Il n'est pas nécessaire d'avoir des paramètres dans une fonction. Mais même sans paramètre, vous devez toujours utiliser les parenthèses, elles seront simplement vides, comme ceci : 
-```
-function appelerMaFonction() {
-    // faire quelque chose
-}
-
-appelerMaFonction()
-```
 
 ## Créez votre fonction
 
@@ -93,6 +84,33 @@ Dans le cas de l'accueil des étudiants montré plus haut, l'action commune est 
 Les actions "communes" de la fonction doivent alors constituer le corps de celle-ci, tandis que les éléments "variables" seront passés comme paramètres.
 
 > Exercices 1 et 2
+
+## Les paramètres
+Il n'est pas nécessaire d'avoir des paramètres dans une fonction. Mais même sans paramètre, vous devez toujours utiliser les parenthèses, elles seront simplement vides, comme ceci : 
+```
+function appelerMaFonction() {
+    // faire quelque chose
+}
+
+appelerMaFonction()
+```
+
+C'est ce qui permet à notre code de comprendre qu'il doit exécuter la fonction.
+
+Et lorsque votre fonction est déclarée avec des paramètres, il faudra bien l'appeler avec les paramètres dans le bon ordre. Par exemple :
+```
+function appelerMaFonction(paramètre1, paramètre2, paramètre3) {
+    // faire quelque chose
+}
+```
+
+Et pour l'appeler, il faudra bien lui passer ce qui est attendu :
+```
+appelerMaFonction(valeur1, valeur2, valeur3)
+```
+
+Sinon, tout va se décaler. Essayez pour voir dans la console.
+
 
 ## Le mot clé return
 
