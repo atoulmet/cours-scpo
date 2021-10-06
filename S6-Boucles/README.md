@@ -1,8 +1,8 @@
 # Les boucles
 
-L'informatique visant à automatiser des actions, nous avons régulièrement besoin de répéter la même action sur une série d'éléments.
+L'informatique vise à automatiser des actions. Nous avons donc régulièrement besoin de répéter la même action sur une série d'éléments.
 
-Cela peut consister par exemple à calculer les résultats académiques sur l'ensemble des étudiants, ou envoyer un email individuels à chaque étudiant, etc.
+Par exemple, comment calculer les résultats académiques sur l'ensemble des étudiants ? Ou envoyer un email individuels à chaque étudiant, etc.
 
 Dans ce cas, l'approche consiste généralement à :
 
@@ -21,13 +21,13 @@ while (condition)
 
 ```
 
-Si la condition n'est pas vérifiée, l'instruction `quoi faire` n'est pas exécutée et le contrôle passe directement à l'instruction suivant la boucle.
+Si la condition n'est pas vérifiée, l'instruction `quoi faire` n'est pas exécutée et le contrôle passe directement à la suite du code.
 
 Voilà concrètement en JS à quoi ça correspond :
 ```
-let iterator = 0
+let index = 0
 
-while (iterator < 5) {
+while (index < 5) {
     console.log("Bonjour !")
     iterator = iterator + 1
 }
@@ -46,6 +46,9 @@ Mais c'est quand même plus logique d'utiliser les boucles, non ?
 
 > Exercice 1 : manipulation basique de while
 
+Précision : il est totalement possible d'imbriquer les instructions entre elles. Donc on peut retrouver des if dans des while.
+
+
 ## Les boucles infinies
 D'ailleurs, vous pouvez tomber dans ce qui s'appelle des boucles infinies. Ça arrive lorsque vous ne prévoyez rien pour sortir de votre boucle. Dans ces cas, gare aux crashs de votre ordinateur.
 
@@ -55,6 +58,8 @@ while (42) {
     console.log("Nous voilà pris dans une boucle infinie 🤯")
 }
 ```
+
+> Exercice 2 : Découvrez une boucle infinie
 
 ## Parcourez un tableau
 
@@ -68,26 +73,9 @@ while (index < capitalCities.length) {
     console.log(capitalCities[index])
     index = index + 1
 }
-
 ```
 
-> Exercice 2 : parcourir un tableau avec while
-
-## Parcourez une chaîne de caractères
-
-Une chaîne de caractères est composée... de caractères. Comme un tableau est composé d'éléments. Ce qui veut dire que vous pouvez accéder à chacune des lettres de votre chaîne de caractères de la même manière, en faisant 
-```
-"CECI EST MA CHAÎNE DE CARACTÈRES"[8] // Vous retournera M
-```
-
-ou bien en faisant 
-```
-const name = "Richard" 
-console.log(name[3]) // vous aurez alors h dans la console
-```
-
-> Exercice 3 à faire ensembles : Convertir en morse
-
+> Exercice 3 : parcourir un tableau avec while
 
 ## L'instruction for...of
 
@@ -105,6 +93,22 @@ for (city of capitalCities) {
 
 ...vous permettra d'afficher le contenu de votre tableau.
 
+> Exercice 4 : parcourir un tableau avec for...of
+
+## Parcourez une chaîne de caractères
+
+Une chaîne de caractères est composée... de caractères. Comme un tableau est composé d'éléments. Ce qui veut dire que vous pouvez accéder à chacune des lettres de votre chaîne de caractères de la même manière, en faisant 
+```
+"CECI EST MA CHAÎNE DE CARACTÈRES"[8] // Vous retournera M
+```
+
+ou bien en faisant 
+```
+const name = "Richard" 
+console.log(name[3]) // vous aurez alors h dans la console
+```
+
+> Exercice BONUS à faire ensembles : Convertir en morse
 
 ### Pour la suite
 
