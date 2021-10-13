@@ -7,7 +7,7 @@ Mais avant de nous lancer dans le vif du sujet, et de coder nos premières pages
 
 > Nous avions vu quelques notions en séance d'introduction, mais quand vous tapez "www.google.com" dans la barre de votre navigateur, est-ce que vous savez ce qui se passe ?
 
-INSÉRER SCHEMA WEB POUR UNE REQUETE⛔️⛔️⛔️⛔️⛔️⛔️
+![requête schema](./images/requête-schema.png)
 
 En fait, quand vous entrez directement une url, ou que vous cliquez sur un lien, votre navigateur va chercher dans une sorte de grand annuaire des adresses internet. Il obtient alors l'adresse de là où le fichier se trouve : sur quel serveur il est. 
 
@@ -29,13 +29,13 @@ Le frontend va donc s'occuper de créer les interactions avec l'utilisateur, de 
 
 Iels utilisent ensuite un protocole pour basculer les infos entre le frontend et le backend. Et le backend va ensuite récupérer ses infos, les stocker dans les bases de données, faciliter l'envoi de ces infos. Puis vient la partie déploiement qui consiste à mettre tout cela en ligne sur des serveurs, qui sont comme de gros ordinateurs qui n'ont comme fonction que de mettre des fichier à disposition et les relier à internet.
 
-INSÉRER SCHEMA LIEN ENTRE FRONT ET BACK⛔️⛔️⛔️⛔️⛔️⛔️
+![frontend backend](./images/front-back.png)
 
-⛔️⛔️⛔️⛔️⛔️⛔️AJOUTER EXEMPLES
+Par exemple, quand vous créez un compte utilisateur, vous allez créer le champs login et password dans le frontend, vous récupérez les informations, et vous les envoyez au backend. Là le backend va vérifier que l'utilisateur n'existe pas déjà, puis crypter le mot de passe, et le stocker dans la base de données. Le frontend affiche en fonction s'il y a une erreur ou si le compte a bien été créé.
 
 > Ça vous semble un peu plus clair ? 
 
-Si le sujet vous intéresse, je vous conseille la vidéo ATTENTION METTRE LIEN ⛔️⛔️⛔️⛔️
+Pour la suite de ce cours, nous allons nous concentrer sur la partie frontend, même si vous avez déjà manipulé node.js.
 
 Et le HTML dans tout ça ?
 
@@ -75,7 +75,7 @@ Quand vous initialisez un projet HTML, CSS, JS sur Replit, voilà ce que vous av
 
 Comme vous pouvez le voir, il y a ici ce qu'on appelle des balises, avec une balise ouvrante, et une balise fermante. Par exemple, `<title>repl.it</title>`. Ici, cela correspond au titre de la page quand vous l'ouvrez dans un onglet spécifique : essayez de le modifier pour voir et d'ouvrir votre site dans une nouvelle page.
 
-REFAIRE SCHÉMA BALISE MDN ⛔️⛔️⛔️⛔️⛔️⛔️
+![Démo balise](./images/démo-balise.png)
 
 > Attention, ici il ne faut pas mettre d'espace entre les `<>`, ni pour `</>` et le type de votre balise.
 
@@ -109,13 +109,6 @@ Il s'agit des liens qui permettent d'utiliser les deux fichiers CSS et JS qui on
 
 ## Créez votre page
 
-
-### Les différents types d'éléments
-
-Les éléments HTML peuvent soit être :
-- des containers pour d'autres éléments. C'est-à-dire qu'il y aura une balise ouvrante et une balise fermante, et qu'on mettra le contenu à l'intérieur.
-- des éléments qui sont *self-closing* : on les utilisera après, mais les images sont dans ce cas là.
-
 ### Le tableau des éléments
 
 Je vous mets ici la liste de tous les éléments que vous pourrez consulter quand vous voudrez créer vos éléments 👇: 
@@ -127,6 +120,12 @@ Je vous mets ici la liste de tous les éléments que vous pourrez consulter quan
 
 > Démo de création des `<h2></h2>`, `<p></p>`, `<div></div>`
 
+
+### Les différents types d'éléments
+
+Les éléments HTML peuvent soit être :
+- des containers pour d'autres éléments. C'est-à-dire qu'il y aura une balise ouvrante et une balise fermante, et qu'on mettra le contenu à l'intérieur.
+- des éléments qui sont *self-closing* : on les utilisera après, mais les images sont dans ce cas là.
 
 ### Les attributs
 On n'a pas encore vu comment créer des images et des liens. C'est normal pour cela, nous avons besoin de voir comment passer des attributs à nos éléments html : pour les liens, cela permet de passer le lien vers lequel on redirige nos utilisateurs, et pour les images, on passe la source `src`.
@@ -146,7 +145,7 @@ Et pour `img`, cela donne `<img src="lien-vers-mon-image" />`. Comme vous le voy
 Aller voir autres éléments dans la documentation. 
 
 ## Comment imbriquer des éléments les uns dans les autres
-
+d
 D'ailleurs, comment faire si vous voulez imbriquer des éléments les uns dans les autres ? 
 
 Attention à toujours bien wrapper, refermer vos balises. L'élément qui a été ouvert en premier doit être refermé en dernier. 
