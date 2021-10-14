@@ -69,7 +69,7 @@ Si ça peut paraître amusant comme ça, les outils de développement sont indis
 
 > Créez votre première page HTML sur Replit
 
-Quand vous initialisez un projet HTML, CSS, JS sur Replit, voilà ce que vous avez 👇
+Vous pouvez créer un nouveau Repl, en choisissant HTML, CSS, JS. Voilà ce que vous obtenez 👇
 
 ![HTML sur Replit](./images/html-replit.png)
 
