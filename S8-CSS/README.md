@@ -95,7 +95,7 @@ Nom du sélecteur | Ce qu'il sélectionne	| Exemple
 :-: | :-: |:- 
 Sélecteur d'élément (parfois appelé « sélecteur de balise » ou « sélecteur de type ») | Tous les éléments HTML d'un type donné.	p | sélectionne tous les `<p>`
 Sélecteur d'ID | L'élément d'une page qui possède l'ID fourni (pour une page HTML donné, on ne peut avoir qu'un seul élément pour un ID donné) #my-id | sélectionne `<p id="my-id"> ou <a id="my-id">`
-Sélecteur de classe | Les éléments d'une page qui sont de la classe donnée (pour une page donnée, il est possible d'avoir plusieurs éléments qui partagent une même classe). .my-class | sélectionne `<p class="my-class"> et <a class="my-class!">`
+Sélecteur de classe | Les éléments d'une page qui sont de la classe donnée (pour une page donnée, il est possible d'avoir plusieurs éléments qui partagent une même classe) `.my-class` | sélectionne `<p class="my-class"> et <a class="my-class!">`
 
 ### Concentrons nous sur les classes
 
@@ -108,7 +108,7 @@ Dans le html, on écrit donc `class="nom-de-classe"`, et dans le css, cela donne
 
 ### Manipuler le CSS dans l'inspecteur
 
-Tout comme pour le HTML, il est possible de manipuler le CSS sur n'importe quelle page. Par exemple, on peut décider de modifier l'identité graphique du site de l'Elysée.
+Tout comme pour le HTML, il est possible de manipuler le CSS sur n'importe quelle page depuis l'inspecteur des devtools. Par exemple, on peut décider de modifier l'identité graphique du site du journal Le Monde.
 
 ### Mise en forme de la page
 
