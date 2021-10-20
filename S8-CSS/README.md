@@ -124,6 +124,6 @@ Propriétés utilisées :
 Implémenter [la maquette Figma](https://www.figma.com/file/nhZlQO3cqijSd1QomhW6zZ/Maquette-Projet-ScPo-S7-%2B-S8?node-id=0%3A1)
 
 ## Pour aller plus loin :
-- S'il y a une ressource sur laquelle vous pencher cette semaine, vous trouverez [le cours complet de freeCodeCamp CSS Full Course](https://www.youtube.com/watch?v=ieTHC78giGQ).
+- S'il y a une ressource sur laquelle vous pencher cette semaine, c'est bien celle là : il s'agit [du cours complet de freeCodeCamp CSS Full Course](https://www.youtube.com/watch?v=ieTHC78giGQ).
 - Pour avoir davantage de manière d'appliquer du style, n'hésitez pas à aller voir [la documentation en ligne MDN sur le CSS](https://developer.mozilla.org/fr/docs/Web/CSS).
 - Il existe également [le cours OpenClassrooms HTML et CSS](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604192-decouvrez-le-fonctionnement-des-sites-web), mais qui commence à dater un peu plus.
