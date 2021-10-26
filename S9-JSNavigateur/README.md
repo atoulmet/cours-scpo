@@ -37,6 +37,7 @@ Depuis, l'importance de JavaScript ne cesse de grandir. Essayez de désactiver J
 ## Éxécutez du JavaScript dans le navigateur
 
 ### Déclarez du code JavaScript dans votre HTML
+
 Mais concrètement comment cela fonctionne ?
 Quand vous avez créé un projet HTML, CSS, JS dans Replit, vous vous souvenez qu'un fichier `script.js` est importé par défaut avec `<script src="script.js"></script>`. Ici, HTML déclare une balise script. Avec l'attribut `src`, il importe le contenu du fichier `script.js`. Mais vous auriez complètement pu écrire directement votre HTML directement dans la balise `script`. 
 
@@ -189,4 +190,13 @@ Sachez qu'il existe des fonctions pour créer tous les éléments d'un site en J
 
 > Vous pouvez faire la même chose pour les langues parlées
 
-> Nous allons également créer un filtre pour afficher seulement un type de contenu
+> Nous pourrions également créer un filtre pour afficher uniquement une seule catégorie
+
+## Pour en savoir plus
+
+- Si vous souhaitez aller plus loin sur JavaScript, vous pouvez faire [le cours freeCodeCamp](https://www.freecodecamp.org/news/full-javascript-course-for-beginners/). Attention, il s'agit d'un cours complet qui vous fera réviser les bases que vous avez déjà vues en cours.
+- Vous avez également la première section (les 5 premiers chapitres) du [cours OpenClassrooms sur JavaScript](https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web).
+
+## Pour la semaine prochaine 
+
+Vous devrez finir le cas concret que nous avons fait ensembles, et ajouter une ou plusieurs autres utilisations similaires dans votre projet.
