@@ -12,7 +12,7 @@ Et bien, ici, le site Skyscanner a fait des requêtes aux différentes compagnie
 
  Une API facilite l’interaction entre deux applications différentes afin qu’elles puissent communiquer entre elles : elle sert d’intermédiaire. Le client va demander à l’API une information, celle-ci va aller chercher cette information dans la base de données puis la renvoyer au client dans un second temps.
 
-![schéma API](images/schéma-api.png)
+![schéma API](images/schema-api.png)
 
 Les API agissent comme un intermédiaire qui transmet des messages à travers un système de requêtes et de réponses. 
 
