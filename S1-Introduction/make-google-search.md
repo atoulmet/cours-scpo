@@ -1,6 +1,12 @@
-# Comment faire une recherche efficace sur Google
+# Comment faire une recherche efficace sur Google dans le dev
 
-L'idée n'est pas ici de lister toutes les fonctionnalités de la recherche Google et les différents paramétrages possibles, mais de vous donner quelques astuces qui se sont avérées très utiles dans les milliers de recherches (au moins) que j'ai eu à faire depuis que je suis développeuse. 👩‍💻
+Dès que j'ai commencé à étudier à 42, je me suis rendue compte qu'il existe de nombreuses petites blagues sur le métier de développeur. L'une d'entre elles consiste à dire que la seule compétence requise pour coder est d'apprendre... à faire des recherches Google.
+
+Même si vous vous doutez bien que ce n'est pas suffisant, cette compétence est néanmoins clé pour les développeuses et les développeurs. Que ce soit pour trouver l'origine d'un bug, des idées pour l'implémentation d'une solution ou bien pour trouver la documentation d'un outil, il est essentiel de savoir trouver une information. Et donc, pour celà, de chercher sur Google.
+
+Je me suis donc dit que c'était l'occasion de partager ce que j'avais pu apprendre de mes 5 années d'expérience en recherches Google. ✨
+
+L'idée n'est pas ici de lister toutes les fonctionnalités et les différents paramétrages possibles de la recherche Google, mais de vous donner quelques astuces qui se sont avérées très utiles dans les milliers de recherches (au moins) que j'ai eu à faire depuis que je suis développeuse. 👩‍💻
 
 ## 1- Faites vos recherches en anglais
 
@@ -24,11 +30,11 @@ Le choix des mots est important. Pour formuler une recherche Google qui fonction
 
 ### Ne mettez que les mots importants
 
-Par exemple, si vous cherchez quel langage utiliser por coder un site internet, au lieu de taper "what language should I use to code a website", vous pouvez tout simplement écrire "choose coding language website".
+Par exemple, si vous cherchez quel langage utiliser pour coder un site internet, au lieu de taper "what language should I use to code a website", vous pouvez tout simplement écrire "choose coding language website".
 
 ### Ajoutez progressivement des termes
 
-D'ailleurs, il est souvent recommandé de commencer une recherche avec des termes très simples, et de voir ensuite ce que vous obtenez en ajoutant d'autres mots. Par exemple, pour l'exemple précédent, vous auirez pu commencer par :
+D'ailleurs, il est souvent recommandé de commencer une recherche avec des termes très simples, et de voir ensuite ce que vous obtenez en ajoutant d'autres mots. Par exemple, pour l'exemple précédent, vous auriez pu commencer par :
 - "coding language"
 - puis "coding language website"
 - et enfin "choose coding language website".
@@ -39,9 +45,9 @@ Lorsque vous faites votre recherche, il est primordial d'utiliser les bons mots.
 
 ### Changez les termes
 
-Si les résultats de votre recherche ne sont pas satisfaisants (ça arrive assez souvent en code), vous pouvez toujours remplacer certains mots par d'autres. Bous devez garder à l'esprit que l'appellation que vous utilisez n'est pas forcément celle que d'autres utilisent. 
+Si les résultats de votre recherche ne sont pas satisfaisants (ça arrive assez souvent en code), vous pouvez toujours remplacer certains mots par d'autres. Vous devez garder à l'esprit que l'appellation que vous utilisez n'est pas forcément celle que d'autres utilisent. 
 
 
-## 5- Formulaire de recherche avancée
+## 5- Exploitez le formulaire de recherche avancée
 
 Et enfin, il vous est toujours possible d'affiner encore davantage votre recherche en utilisant le formulaire de recherche avancé. D'ailleurs, si vous voulez un meilleur aperçu des différentes fonctionnalités qu'il offre, je vous conseille... de chercher des articles sur Google. 😁

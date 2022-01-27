@@ -120,7 +120,7 @@ Et voilà ! Vous avez exécuté vos premières lignes de JavaScript ! 🎉
 
 ## Découvrez votre premier langage : Javascript
 
-JavaScript, dont je vous parlerai souvent en disant "JS", est LE langage du web. Il est le seul langage de programmation à être exécuté directement depuis dans le navigateur. Je vous fais une petite démonstration juste en dessous c.
+JavaScript, dont je vous parlerai souvent en disant "JS", est LE langage du web. Il est le seul langage de programmation à être exécuté directement depuis dans le navigateur. Je vous fais une petite démonstration juste en dessous 👇.
 
 ![Le JS s'exécute dans n'importe quel navigateur](./images/js-console.gif)
 
@@ -138,7 +138,7 @@ Si vous souhaitez en apprendre davantage sur l'histoire de JS, vous pouvez regar
 Pour le moment, nous allons uniquement manipuler notre JS dans replit (au moins durant les 6 premières séances). Mais voyons quelques éléments de syntaxe.
 
 ### Les console.log()
-Alors, il ne s'agit pas de syntaxe à proprement parler, mais une méthode qui permet d'afficher des éléments. Nous l'avons déjà utilisé.
+Alors, il ne s'agit pas de syntaxe à proprement parler, mais une méthode qui permet d'afficher des éléments.
 
 Cette méthode est particulièrement utile, et est employée par tous les développeurs et développeuses JS.
 
@@ -150,7 +150,7 @@ Les commentaires sont très utiles pour faciliter la relecture du code.
 
 En JavaScript, ils se caractérisent par un double slash : `//`.
 
-VOus pouvez les placer avant une ligne de code, ou à la fin
+Vous pouvez les placer avant une ligne de code, ou à la fin
 
 ```
 // Mon commentaire 1
@@ -159,7 +159,7 @@ console.log(42) // Mon commentaire 2
 
 ## Pour la prochaine séance
 
-- Relire le cours. Vous y accédez depuis `Teams` > `scpo-fall-2021` > `Teams repls` > `View team repls` > `cours-scpo`. Je vous conseille de le mettre en favori pour pouvoir le retrouver facilement.
-- Dans `Teams` > `scpo-fall-2021` > `Teams Project`, vous trouverez des exercices pour chaque séance du cours. Vous devrez réaliser le quiz de la séance 1. Voici [le lien juste ici](https://replit.com/@scpo-fall-2021/1-introductionquiz).
+- Relire le cours. Vous y accédez depuis Github [sur ce lien](https://github.com/atoulmet/cours-scpo). Je vous conseille de le mettre en favori pour pouvoir le retrouver facilement.
+- Dans `Teams` > `scpo-spring-2022` > `Teams Project`, vous trouverez des exercices pour chaque séance du cours. Vous devrez réaliser le quiz de la séance 1. Voici [le lien juste ici](https://replit.com/@scpo-fall-2021/1-introductionquiz).
 
 Je vous mets juste ici un screencast (une vidéo où je filme mon écran) pour vous apprendre à réaliser votre exercice, et à le corriger : [allez sur ce lien Youtube](https://youtu.be/y-pAe5tR3Ow)👈.
