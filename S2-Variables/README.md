@@ -2,6 +2,17 @@
 
 La semaine dernière, vous avez vu les bases théoriques du développement, et vous avez pu manipuler quelques fichiers basiques de JS, avec des `console.log` et des commentaires. Mais le moment est maintenant venu de nous plonger dans la pratique. 🔥
 
+## Intro : le code, un outil de calcul
+
+Avant de nous lancer dans le monde des variables, nous allons manipuler des valeurs avec le code. Alors c'est parti pour [l'exercice 1](https://replit.com/@scpo-spring-2022/S2-variables-exercice-1#index.js). 
+
+=> Exercice 1
+
+Comme vous pouvez le voir, la syntaxe que nous utilisons est essentielle pour déclarer le type de ce que nous allons utiliser : du texte ou des nombres. Profitons-en pour faire nos calculs !
+
+=> Exercice 2
+
+
 ## Appréhendez les variables
 
 Pour l'instant, nous avons utilisé des valeurs directement dans nos console.log, qui n'étaient donc utilisées qu'une seule fois. 
@@ -12,7 +23,7 @@ Les variables sont faites pour ça !
 
 Elles nous permettent de mémoriser simplement des valeurs, et de pouvoir les utiliser dès que nécessaire.
 
-Concrètement, qu'est-ce que ça veut dire d'un point de vue informatique. Ça veut dire qu'on dit à notre ordinateur ordonne à notre ordinateur de prendre une partie de sa mémoire, d'y stocker le contenu que l'on souhaite, et notre variable va pointer sur cette valeur.
+Concrètement, qu'est-ce que ça veut dire d'un point de vue informatique. Ça veut dire ordonne à notre ordinateur de prendre une partie de sa mémoire, d'y stocker le contenu que l'on souhaite, et notre variable va pointer sur cette valeur.
 
 Chaque variable est nommée. 
 
@@ -27,14 +38,24 @@ On fait un console.log... Et on a bien le résultat ! 🎉
 
 ![La variable permet de stocker le résultat de la multiplication](./images/demo-var.gif)
 
-Essayez avec une addition, une soustraction, une multiplication et une division !
+Pour vous donner un exemple où une variable est utile : lorsqu'on souhaite incrémenter notre valeur (l'augmenter régulièrement). Voici un exemple 👇
+```
+let compteur = 1
+compteur = compteur + 1
+compteur = compteur + 1
+compteur = compteur + 1
+console.log(compteur)
+```
 
-Pour vérifier que vous avez bien compris,[ on fait le premier exercice de la séance.](https://replit.com/@scpo-fall-2021/S2-variablesexercice-1#index.js)
+### N'utilisez pas `var`
+
+Dans les anciennes versions de JavaScript, `let` et `const` n'existaient pas. À la place, on avait `var` dont le comportement était un peu différent. Ces différences rentrent un peu plus dans la technique, dont vous n'aurez pas besoin pour le moment. Gardez juste à l'esprit qu'il vaut mieux utiliser `var`. Donc si vous le voyez dans un morceau de code que vous trouvez en ligne, essayez de le remplacer par `let` ou `const`.
+
 
 
 ## Découvrez les types
 
-La semaine dernière, vous avez écrit du texte. Pour cela, vous avez utilisé les accolades `" "`. Pour utiliser un nombre, vous avez pu l'écrire directement. Voilà maintenant le moment venu de comprendre pourquoi : il s'agit en fait de types différents. 
+Vous avez déjà écrit du texte. Pour cela, vous avez utilisé les accolades `" "`. Pour utiliser un nombre, vous avez pu l'écrire directement. Voilà maintenant le moment venu de comprendre pourquoi : il s'agit en fait de types différents. 
 
 Chaque valeur que l'on utilise dans le code est d'un type donné.
 

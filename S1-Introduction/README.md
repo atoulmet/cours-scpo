@@ -138,6 +138,7 @@ Si vous souhaitez en apprendre davantage sur l'histoire de JS, vous pouvez regar
 Pour le moment, nous allons uniquement manipuler notre JS dans replit (au moins durant les 6 premières séances). Mais voyons quelques éléments de syntaxe.
 
 ### Les console.log()
+
 Alors, il ne s'agit pas de syntaxe à proprement parler, mais une méthode qui permet d'afficher des éléments.
 
 Cette méthode est particulièrement utile, et est employée par tous les développeurs et développeuses JS.

@@ -2,7 +2,7 @@
 
 L'informatique vise à automatiser des actions. Nous avons donc régulièrement besoin de répéter la même action sur une série d'éléments.
 
-Par exemple, comment calculer les résultats académiques sur l'ensemble des étudiants ? Ou envoyer un email individuels à chaque étudiant, etc.
+Par exemple, comment calculer les résultats académiques sur l'ensemble des étudiants ? Ou envoyer un email individuel à chaque étudiant, etc.
 
 Dans ce cas, l'approche consiste généralement à :
 
