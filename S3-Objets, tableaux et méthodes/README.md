@@ -19,7 +19,7 @@ let tableau = ["valeur1", "valeur2", "valeur3"]
 
 ## Découvrez les objets
 
-Je vous les avais montrés durant la séance précédente : les objets. Vous trouverez [la documentation juste ici](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Working_with_Objects).
+Je vous les avais rapidement montrés durant la séance précédente : les objets. Vous trouverez [la documentation juste ici](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Working_with_Objects).
 
 On peut penser aux objets JS un peu comme un objet de la vraie vie. Chaque objet possède des propriétés, comme si on définissait ses caractéristiques. Par exemple, si je crée un objet "livre", il aura les propriétés "titre", "auteur", "chapitres", "éditeur", etc.
 
@@ -35,14 +35,20 @@ const livre = {
     "editeur": "Folio"
 }
 ```
-Vous voyez que les propriétés peuvent être des strings, des numbers, ça peut également être des booléens, des tableaux, etc. 
 On accède alors à l'auteur en faisant `livre.auteur`. 
 
-> Une autre syntaxe possible : `livre["auteur"]`.
+> Exercice 1
 
-Les objets sont particulièrement utiles pour gérer les données.
+Vous voyez que les propriétés peuvent être des strings, des numbers, ça peut également être des booléens, des tableaux, etc. 
 
-> Exercice pour créer objet `gameOfThronesCharacter` (on passe en 🇬🇧).
+> Exercice 2
+
+Les objets sont particulièrement utiles pour gérer les données. 
+
+> Démo des données Facebook
+
+
+> Exercice 3
 
 
 ## Maniez les tableaux (arrays)
@@ -86,6 +92,12 @@ const elements = [   ,
 ```
 
 si je veux obtenir uniquement élément2, je fais `elements[1]`. Alors, attention à bien compter à partir de 0 !
+
+> exercice 4
+
+### Comprenez .length
+
+> exercice 5
 
 ### Manipulez les tableaux
 Jusqu'à maintenant, on a fait des tableaux de strings. De la même manière, on peut faire des tableaux de strings, de numbers, d'objets, etc.
