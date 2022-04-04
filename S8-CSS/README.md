@@ -111,13 +111,21 @@ Tout comme pour le HTML, il est possible de manipuler le CSS sur n'importe quell
 ### Mise en forme de la page
 
 Propriétés utilisées :
-- font, font-size, font-family, font-weight
-- text-align
-- color, background-color
-- margin, padding, height, width
-- margin auto pour aligner
-- border, border-radius
-- position (relative, absolute)
+  - Propriétés de texte :
+    - font, font-size, font-family, font-weight
+    - text-align
+    - color
+  - Propriétés d'images
+    background-color
+    width
+    height
+  - Propriétés d'espacement
+    - margin, padding, height, width
+  - Propriétés de bordure
+    - border, border-radius
+  - Propriétés de block 
+    - margin auto pour aligner
+    - position (relative, absolute)
 
 ## Pour la semaine prochaine 
 

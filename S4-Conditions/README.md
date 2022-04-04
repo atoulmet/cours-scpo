@@ -106,7 +106,7 @@ Vous l'avez déjà vu, mais les signes `>`, `<`, `>=` et  `<=` nous permettent d
 
 ### Exercez-vous
 
-Exercicse 1 et 2
+Exercice 1 et 2
 
 ## Lancez-vous dans les conditions
 
