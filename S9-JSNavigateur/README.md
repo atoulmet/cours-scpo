@@ -3,14 +3,10 @@
 Maintenant que nous avons la structure et le style, voilà venu le moment d'ajouter des interactions à notre site internet ! 🎉 Pour cela, nous allons utiliser le même langage que vous utilisez depuis le début du semestre : le JavaScript... Mais côté navigateur.
 
 ## Comprenez les différentes utilisations de JS 
-Est-ce que vous vous souvenez ? Jusqu'à maintenant, quand deviez créer un nouveau projet sur Replit en JavaScript, je vous faisais choisir `node.js` ?
+Est-ce que vous vous souvenez ? Jusqu'à maintenant, quand vous deviez créer un nouveau projet sur Replit en JavaScript, je vous faisais choisir `node.js` ?
 !['Créer un nouveau projet replit'](images/nodejs-replit.png)
 
-En fait, cela correspond à une utilisation backend de JavaScript, nous permettant alors de faire nos exercices de logique du code, sans avoir à gérer une interface mais en manipulant directement le code et en affichant le rendu de nos exercices dans la console. Le JavaScript peut être exécuté côté serveur depuis la création de `node.js` en 2009.
-
-> Plutôt récent n'est-ce pas ?
-
-Ainsi, les développeurs pouvaient développer une application de bout en bout en JavaScript, sans avoir à changer de langage entre le frontend et le backend. Typiquement, un développeur n'aura pas à changer de syntaxe lorsqu'il utilise des variables, des conditions, boucles, fonctions, etc. dans son code. Plutôt pratique 🤩.
+En fait, cela correspond à une utilisation backend de JavaScript, nous permettant alors de faire nos exercices de logique du code, sans avoir à gérer une interface mais en manipulant directement le code et en affichant le rendu de nos exercices dans la console.
 
 Mais historiquement, JavaScript a été développé pour être exécuté côté frontend. 
 
@@ -18,7 +14,7 @@ Mais historiquement, JavaScript a été développé pour être exécuté côté 
 
 Le langage a vu le jour en 1995 afin de manipuler les éléments HTML, et donc de créer des intéractions. 
 
-À l'époque, il avait été créé pour un des leader du marché des navigateurs : Netscape. L'idée était simple :  proposer des interactions aux utilisateurs, sans avoir à recharger toute la page. Il fallait pouvoir exécuter du code directement sur l'ordinateur de l'utilisateur qui serait récupéré pendant la requête au serveur. Un talentueux développeur a donc été recruté chez Netscape, et a pu créer les bases de JavaScript ... en 10 jours.
+À l'époque, il avait été créé pour un des leader du marché des navigateurs : Netscape. L'idée était simple :  proposer des interactions aux utilisateurs, sans avoir à recharger toute la page. Il fallait pouvoir exécuter du code directement sur l'ordinateur de l'utilisateur qui serait récupéré pendant la requête au serveur. Un talentueux développeur, Brendan Eich, a donc été recruté chez Netscape, et a pu créer les bases de JavaScript ... en 10 jours, avec un autre nom.
 
 Puis Microsoft, sentant que l'enjeu de l'interaction était de taille, développe également son propre langage pour créer des interactions sur les pages internet. JScript voit le jour dans Internet Explorer en 1996.
 
@@ -33,6 +29,12 @@ Encore de nos jours, l'association se réunit régulièrement et décide des nou
 
 Depuis, l'importance de JavaScript ne cesse de grandir. Essayez de désactiver JavaScript dans vos devtools pour voir ce que cela donne ?
 > paramètres > confidentialité et sécurité > paramètre des sites > javascript
+
+## JavaScript côté backend : Node.JS
+
+Le JavaScript peut être exécuté côté serveur depuis la création de `node.js` en 2009.
+
+Ainsi, les développeurs pouvaient développer une application de bout en bout en JavaScript, sans avoir à changer de langage entre le frontend et le backend. Typiquement, un développeur n'aura pas à changer de syntaxe lorsqu'il utilise des variables, des conditions, boucles, fonctions, etc. dans son code. Plutôt pratique 🤩.
 
 ## Éxécutez du JavaScript dans le navigateur
 
@@ -74,7 +76,7 @@ function creerAlerte() {
 }
 ```
 
-si vous exécutez votre code, rien ne se passe : c'est normal, la fonction n'est pas appelée. 
+Si vous exécutez votre code, rien ne se passe : c'est normal, la fonction n'est pas appelée. 
 
 Vous pouvez l'appeler juste en dessous directement dans le JS : 
 ```
@@ -112,7 +114,9 @@ Pour cela JavaScript va vous permettre d'accéder à n'importe quel élément et
 
 Quand vous avez écrit votre HTML, et que vous l'ouvrez avec votre navigateur, vous voyez qu'il a généré tous vos éléments. Il s'agit du DOM, le *Document Object Model*.
 
-Et bien, JavaScript met à notre disposition tout un ensemble de fonctions qui permettent de parcourir le contenu de votre DOM. La fonction la plus connue est `getElementById`. Son principe est simple : on passe une sorte de marqueur à un élément HTML qui sera dans notre DOM en lui donnant un attribut `id` (sur le m6eme modèle des attributs `class` qu'on avait utilisés la semaine dernière), ce qui nous permet ensuite de le récupérer dans le JavaScript en utilisant cet `id`.
+!['Le DOM'](./images/DOM.png)
+
+Et bien, JavaScript met à notre disposition tout un ensemble de fonctions qui permettent de parcourir le contenu de votre DOM. La fonction la plus connue est `getElementById`. Son principe est simple : on passe une sorte de marqueur à un élément HTML qui sera dans notre DOM en lui donnant un attribut `id` (sur le même modèle des attributs `class` qu'on avait utilisés la semaine dernière), ce qui nous permet ensuite de le récupérer dans le JavaScript en utilisant cet `id`.
 
 Testons tout de suite !
 Dans notre HTML, on déclare une `div` vide avec un `id` "ceci-est-mon-element" 👇 :
@@ -145,7 +149,7 @@ Pour l'instant, l'intérêt est limité puisque nous avons effectué notre modif
 
 L'idée ici va être de faire apparaître le texte `Coucou 👋` au clic sur un bouton.
 
-On crée donc notre bouton dans le HTML qui appelle la fonction afficherTexte quand on clique dessus :
+On crée donc notre bouton dans le HTML qui appelle la fonction `afficherTexte` quand on clique dessus :
 ```
 <button onclick="afficherTexte()">Cliquer</button>
 ```
