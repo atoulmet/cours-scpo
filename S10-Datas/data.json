@@ -1,0 +1,17 @@
+{
+    "intitulé": "Cours de code informatique : développer un site web",
+    "contenu": [ 
+        "Introduction", 
+        "Les variables", 
+        "Objets, tableaux et méthodes", 
+        "Les conditions",
+        "Les boucles", 
+        "Le HTML", 
+        "Le CSS",
+        "Le JavaScript côté navigateur", 
+        "Les datas", 
+        "Les APIs" 
+    ],
+    "enseignante": "Alexia Toulmet",
+    "durée": 24
+}
