@@ -51,13 +51,9 @@ Un exemple récent de l'utilisation de données publiques pour créer une applic
 
 ## Découvrez l'authentification sur une API Google
 
-Comme nous l'avions vu la semaine dernière, nous allons maintenant intégrer une requête dans notre page "For fun" afin de récupérer les données depuis une Spreadsheet Google. Pour cela, vous allez :
+Comme nous l'avions vu la semaine dernière, nous allons maintenant intégrer une requête dans notre page "For fun" afin de récupérer les données depuis une Spreadsheet Google. Pour cela, nous allons le faire en plusieurs étapes. 
 
-1- Chercher dans la doc comment faire (mais ici, je suis là pour vous faciliter la vie)
-2- devoir créer de quoi vous authentifier sur Google : un token
-3- Utiliser votre token pour faire votre requête.
-
-`const request = await fetch('https://sheets.googleapis.com/v4/spreadsheets/{l'id de votre spreadsheet ici}/values/A1:A100?key={votre clé ici}')`
+### Requêtez depuis le backend de la semaine dernière
 
 Et vous allez ensuite parcourir la data pour afficher vos éléments en utilisant le code ci-dessous : 
 ```
@@ -68,8 +64,19 @@ for (elem of maData) {
  }
 ```
 
+### Faites vous-même votre propre requête
+Si vous aviez dû le faire par vous-même, vous auriez dû
+chercher dans la doc comment faire (mais ici, je suis là pour vous faciliter la vie), je vais donc vous montrer.
+Pour faire votre requête, vous avez besoin de :
+1- créer de quoi vous authentifier sur Google : un token
+2- Utiliser votre token pour faire votre requête.
+
+`const request = await fetch('https://sheets.googleapis.com/v4/spreadsheets/{l'id de votre spreadsheet ici}/values/A1:A100?key={votre clé ici}')`
+
+Vous avez maintenant le pouvoir des APIs entre vos mains 😈.
+
 ## Exploitez la puissance du low code
 
-À partir du moment où vous pouvez récupérer vos données dans Google spreadsheet, vous pouvez connecter des APIs entre elles avec la puissance du low code. Ici, vous allez avoir une démonstration de la puissance de Zapier pour connecter les APIs entre elles sans avoir à tout connecter manuellement. 
+À partir du moment où vous pouvez récupérer vos données dans Google spreadsheet, vous pouvez connecter des APIs entre elles avec la puissance du low code. Ici, vous allez avoir une démonstration de la puissance de Zapier pour connecter les APIs entre elles sans avoir à tout connecter manuellement, notamment pour faire des automatisations (afin de gagner du temps, créer de la valeur, etc.).
 
 Vous [trouverez ici quelques exemples](https://zapier.com/learn/automate-apps-examples/popular-app-automations/) d'utilisations de Zapier qui s'avèrent particulièrement utiles.
